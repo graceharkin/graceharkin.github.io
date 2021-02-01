@@ -57,9 +57,13 @@ a:hover {
 
 
 /*text styling*/
-p {
+p {font-family: "Big Caslon Reg";
+    font-display: swap;
+    font-style: normal;
+    font-weight: normal;
   font-size: 20px;
   max-width: 75%;}
+  
 @media screen and (max-width: 600px) {
   p {
     max-width: 100%;}}
@@ -233,7 +237,7 @@ height: 45vh;
 /*thumbnail responsive styling*/
 @media screen and (max-width: 1024px) {
   .thumbnail {width: 50%;}}
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
   .thumbnail {width: 100%;
     margin: 0px;
     padding: 0px;}}
