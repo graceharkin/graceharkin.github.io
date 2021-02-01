@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 480 480" style="enable-background:new 0 0 480 480;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#CA5743;}
+	.st1{fill:none;stroke:#2B1B20;stroke-width:2;stroke-miterlimit:10;}
+	.st2{fill:#CA5743;stroke:#2B1B20;stroke-width:2;stroke-miterlimit:10;}
+	.st3{fill:none;stroke:#2B1B20;stroke-width:6;stroke-miterlimit:10;}
+	.st4{fill:none;stroke:#FDEEDA;stroke-width:2;stroke-miterlimit:10;}
+	.st5, .home{fill:#FDEEDA;stroke:#2B1B20;stroke-width:2;stroke-miterlimit:10;}
+	.st6{fill:#2B1B20;}
+
+#outline {animation: outline 3s ease-in-out infinite;
+stroke-dasharray: 800px;
+stroke-dashoffset: 0px;}
+
+@keyframes outline {
+0% {stroke-dashoffset: -800px;}
+50% {stroke-dashoffset: 0px;}
+}
+
+.home {animation: outline2 3s ease-in-out infinite;
+stroke-dasharray: 100px;
+stroke-dashoffset: 0px;}
+
+@keyframes outline2 {
+10% {stroke-dashoffset: -100px;
+fill: none;}
+60% {stroke-dashoffset: 0px;
+fill: 100%;}
+}
+
+.button1 {animation: outline3 3s ease-in-out infinite;
+stroke-dasharray: 90px;
+stroke-dashoffset: 0px;}
+
+@keyframes outline3 {
+0% {stroke-dashoffset: -90px;}
+30% {stroke-dashoffset: -90px;}
+60% {stroke-dashoffset: 0px;}
+}
+
+.button2 {animation: outline3 3s ease-in-out infinite;
+stroke-dasharray: 90px;
+stroke-dashoffset: 0px;}
+
+.button3 {animation: outline3 3s ease-in-out infinite;
+stroke-dasharray: 90px;
+stroke-dashoffset: 0px;}
+
+.button4 {animation: outline3 3s ease-in-out infinite;
+stroke-dasharray: 90px;
+stroke-dashoffset: 0px;}
+
+</style>
+<rect class="st0" width="480" height="480"/>
+
+<!--right button-->
+<g class="button1">
+	<path class="st0" d="M307.5,176c0,2.2-1.8,4-4,4h-7c-2.2,0-4-1.8-4-4v-22c0-2.2,1.8-4,4-4h7c2.2,0,4,1.8,4,4V176z"/>
+	<path class="st1" d="M307.5,176c0,2.2-1.8,4-4,4h-7c-2.2,0-4-1.8-4-4v-22c0-2.2,1.8-4,4-4h7c2.2,0,4,1.8,4,4V176z"/>
+</g>
+
+<!--volume up-->
+<g class="button2">
+	<path class="st0" d="M187.5,191c0,2.2-1.8,4-4,4h-7c-2.2,0-4-1.8-4-4v-22c0-2.2,1.8-4,4-4h7c2.2,0,4,1.8,4,4V191z"/>
+	<path class="st1" d="M187.5,191c0,2.2-1.8,4-4,4h-7c-2.2,0-4-1.8-4-4v-22c0-2.2,1.8-4,4-4h7c2.2,0,4,1.8,4,4V191z"/>
+</g>
+<!--volume down-->
+<g class="button3">
+	<path class="st0" d="M187.5,228.5c0,2.2-1.8,4-4,4h-7c-2.2,0-4-1.8-4-4v-22c0-2.2,1.8-4,4-4h7c2.2,0,4,1.8,4,4V228.5z"/>
+	<path class="st1" d="M187.5,228.5c0,2.2-1.8,4-4,4h-7c-2.2,0-4-1.8-4-4v-22c0-2.2,1.8-4,4-4h7c2.2,0,4,1.8,4,4V228.5z"/>
+</g>
+<!--top left button-->
+<g class="button4">
+	<path class="st2" d="M187.5,146c0,2.2-1.8,4-4,4h-7c-2.2,0-4-1.8-4-4v-7c0-2.2,1.8-4,4-4h7c2.2,0,4,1.8,4,4V146z"/>
+	<path class="st1" d="M187.5,146c0,2.2-1.8,4-4,4h-7c-2.2,0-4-1.8-4-4v-7c0-2.2,1.8-4,4-4h7c2.2,0,4,1.8,4,4V146z"/>
+</g>
+<!--iphone background-->
+<g id="phone">
+	<!--red interior-->
+	<path class="st0" d="M300,356c0,2.2-1.8,4-4,4H184c-2.2,0-4-1.8-4-4V124c0-2.2,1.8-4,4-4h112c2.2,0,4,1.8,4,4V356z"/>
+<g id="outline">
+	<!--purple outline-->
+	<path class="st3" d="M300,356c0,2.2-1.8,4-4,4H184c-2.2,0-4-1.8-4-4V124c0-2.2,1.8-4,4-4h112c2.2,0,4,1.8,4,4V356z"/>
+	<!--white outline-->
+	<path class="st4" d="M300,356c0,2.2-1.8,4-4,4H184c-2.2,0-4-1.8-4-4V124c0-2.2,1.8-4,4-4h112c2.2,0,4,1.8,4,4V356z"/>
+</g>
+</g>
+<!--small camera circle-->
+<circle class="st5" cx="239.9" cy="129.4" r="1.4"/>
+<!--large camera circle-->
+<g>
+	<path class="st5" d="M233.2,133.5h20.6c0.7,0,1.2,0.5,1.2,1.2l0,0c0,0.7-0.5,1.2-1.2,1.2h-20.6c-0.7,0-1.2-0.5-1.2-1.2l0,0
+		C232,134,232.5,133.5,233.2,133.5z"/>
+	<circle class="st5" cx="226.7" cy="134.7" r="1.9"/>
+</g>
+<!--home button-->
+<circle class="home" cx="240" cy="340.5" r="7.5"/>
+<!--screen background-->
+<g>
+	<path class="st6" d="M292.5,318.2c0,2.4-1.9,4.3-4.3,4.3h-96.4c-2.4,0-4.3-1.9-4.3-4.3V146.8c0-2.4,1.9-4.3,4.3-4.3h96.4
+		c2.4,0,4.3,1.9,4.3,4.3V318.2z"/>
+</g>
+
+</svg>

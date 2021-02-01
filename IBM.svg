@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 480 480" style="enable-background:new 0 0 480 480;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#CA5743;}
+	.st1{fill:#2B1B20;}
+	.st2{fill:none;stroke:#2B1B20;stroke-width:2;stroke-miterlimit:10;}
+
+		.st3{fill:none;stroke:#FDEFDB;stroke-width:1.9899;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:237.5996;}
+	.st4{fill:none;stroke:#CA5743;stroke-width:1.4142;stroke-miterlimit:10;}
+	.st5{fill:none;stroke:#2B1B20;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;}
+
+	.point1, .point2, .point3, .point4, .point5 {fill:#CA5743;stroke:#2B1B20;stroke-width:2;stroke-miterlimit:10;}
+
+	.st7{fill:none;stroke:#FDEEDA;stroke-width:2;stroke-miterlimit:10;}
+
+
+
+	.st4 {animation: enclosure 3s ease-in-out infinite;
+	stroke-dasharray: 210px;
+	stroke-dashoffset: 0px;}
+
+	@keyframes enclosure {
+	0% {stroke-dashoffset: -210px;}
+	80% {stroke-dashoffset: 0px;}
+	}
+
+	.st3
+	{animation: axis 3s ease-in-out infinite;
+	stroke-dasharray: 250px;
+	stroke-dashoffset: 0px;}
+
+	@keyframes axis {
+	0% {stroke-dashoffset: -250px;}
+	80% {stroke-dashoffset: 0;}
+	}
+
+	.st5
+	{animation: line 3s ease-in-out infinite;
+	stroke-dasharray: 150;
+	stroke-dashoffset: 0;}
+
+	@keyframes line {
+	0% {stroke-dashoffset: 150;}
+	80% {stroke-dashoffset: 0;}
+	}
+
+	.point2 {animation: point2 3s ease-in-out infinite;}
+	@keyframes point2 {
+	0% {opacity: 0;}
+	12.5% {opacity: 1;}
+	}
+
+	.point3 {animation: point3 3s ease-in-out infinite;}
+	@keyframes point3 {
+	0% {opacity: 0;}
+	12.5% {opacity: 0;}
+	25% {opacity: 1;}
+	}
+
+	.point4 {animation: point4 3s ease-in-out infinite;}
+	@keyframes point4 {
+	0% {opacity: 0;}
+	12.5% {opacity: 0;}
+	25% {opacity: 0;}
+	37.5% {opacity: 1;}
+	}
+
+	.point5 {animation: point5 3s ease-in-out infinite;}
+	@keyframes point5 {
+	0% {opacity: 0;}
+	12.5% {opacity: 0;}
+	25% {opacity: 0;}
+	37.5% {opacity: 0;}
+	50% {opacity: 1;}
+	}
+</style>
+
+<rect class="st0" width="480" height="480"/>
+<!--left rack background-->
+<g id="leftrack">
+	<path class="st1" d="M165,356c0,2.2-1.8,4-4,4H64c-2.2,0-4-1.8-4-4V124c0-2.2,1.8-4,4-4h97c2.2,0,4,1.8,4,4V356z"/>
+</g>
+<!--outer ring purple-->
+<path class="st2" d="M420,180c0,33.1-26.9,60-60,60s-60-26.9-60-60c0-33.1,26.9-60,60-60l0,0c32.8-0.3,59.6,26,60,58.8
+	C420,179.2,420,179.6,420,180z"/>
+
+<!--middle ring purple-->
+<circle class="st2" cx="360" cy="180" r="52.5"/>
+<!--inside ring purple-->
+<circle class="st2" cx="360" cy="180" r="45"/>
+<!--chart axis-->
+<polyline class="st3" points="300,247.5 300,358.9 420,358.9 "/>
+<!--left rack enclosure 10-->
+<g id="enclosure">
+	<path class="st4" d="M157.5,138.5c0,2.2-1.8,4-4,4h-82c-2.2,0-4-1.8-4-4v-7c0-2.2,1.8-4,4-4h82c2.2,0,4,1.8,4,4V138.5z"/>
+</g>
+<!--left rack enclosure 9-->
+<g id="enclosure">
+	<path class="st1" d="M157.5,161c0,2.2-1.8,4-4,4h-82c-2.2,0-4-1.8-4-4v-7c0-2.2,1.8-4,4-4h82c2.2,0,4,1.8,4,4V161z"/>
+	<path class="st4" d="M157.5,161c0,2.2-1.8,4-4,4h-82c-2.2,0-4-1.8-4-4v-7c0-2.2,1.8-4,4-4h82c2.2,0,4,1.8,4,4V161z"/>
+</g>
+<!--left rack enclosure 8-->
+<g id="enclosure">
+	<path class="st1" d="M157.5,183.5c0,2.2-1.8,4-4,4h-82c-2.2,0-4-1.8-4-4v-7c0-2.2,1.8-4,4-4h82c2.2,0,4,1.8,4,4V183.5z"/>
+	<path class="st4" d="M157.5,183.5c0,2.2-1.8,4-4,4h-82c-2.2,0-4-1.8-4-4v-7c0-2.2,1.8-4,4-4h82c2.2,0,4,1.8,4,4V183.5z"/>
+</g>
+<!--left rack enclosure 7-->
+<g id="enclosure">
+	<path class="st1" d="M157.5,206c0,2.2-1.8,4-4,4h-82c-2.2,0-4-1.8-4-4v-7c0-2.2,1.8-4,4-4h82c2.2,0,4,1.8,4,4V206z"/>
+	<path class="st4" d="M157.5,206c0,2.2-1.8,4-4,4h-82c-2.2,0-4-1.8-4-4v-7c0-2.2,1.8-4,4-4h82c2.2,0,4,1.8,4,4V206z"/>
+</g>
+<!--left rack enclosure 6-->
+<g id="enclosure">
+	<path class="st1" d="M157.5,228.5c0,2.2-1.8,4-4,4h-82c-2.2,0-4-1.8-4-4v-7c0-2.2,1.8-4,4-4h82c2.2,0,4,1.8,4,4V228.5z"/>
+	<path class="st4" d="M157.5,228.5c0,2.2-1.8,4-4,4h-82c-2.2,0-4-1.8-4-4v-7c0-2.2,1.8-4,4-4h82c2.2,0,4,1.8,4,4V228.5z"/>
+</g>
+<!--left rack enclosure 5-->
+<g id="enclosure">
+	<path class="st1" d="M157.5,251c0,2.2-1.8,4-4,4h-82c-2.2,0-4-1.8-4-4v-7c0-2.2,1.8-4,4-4h82c2.2,0,4,1.8,4,4V251z"/>
+	<path class="st4" d="M157.5,251c0,2.2-1.8,4-4,4h-82c-2.2,0-4-1.8-4-4v-7c0-2.2,1.8-4,4-4h82c2.2,0,4,1.8,4,4V251z"/>
+</g>
+<!--left rack enclosure 4-->
+<g id="enclosure">
+	<path class="st1" d="M157.5,273.5c0,2.2-1.8,4-4,4h-82c-2.2,0-4-1.8-4-4v-7c0-2.2,1.8-4,4-4h82c2.2,0,4,1.8,4,4V273.5z"/>
+	<path class="st4" d="M157.5,273.5c0,2.2-1.8,4-4,4h-82c-2.2,0-4-1.8-4-4v-7c0-2.2,1.8-4,4-4h82c2.2,0,4,1.8,4,4V273.5z"/>
+</g>
+<!--left rack enclosure 3-->
+<g id="enclosure">
+	<path class="st1" d="M157.5,296c0,2.2-1.8,4-4,4h-82c-2.2,0-4-1.8-4-4v-7c0-2.2,1.8-4,4-4h82c2.2,0,4,1.8,4,4V296z"/>
+	<path class="st4" d="M157.5,296c0,2.2-1.8,4-4,4h-82c-2.2,0-4-1.8-4-4v-7c0-2.2,1.8-4,4-4h82c2.2,0,4,1.8,4,4V296z"/>
+</g>
+<!--left rack enclosure 2-->
+<g id="enclosure">
+	<path class="st1" d="M157.5,318.5c0,2.2-1.8,4-4,4h-82c-2.2,0-4-1.8-4-4v-7c0-2.2,1.8-4,4-4h82c2.2,0,4,1.8,4,4V318.5z"/>
+	<path class="st4" d="M157.5,318.5c0,2.2-1.8,4-4,4h-82c-2.2,0-4-1.8-4-4v-7c0-2.2,1.8-4,4-4h82c2.2,0,4,1.8,4,4V318.5z"/>
+</g>
+<!--left rack enclosure 1-->
+<g id="enclosure">
+	<path class="st1" d="M157.5,341c0,2.2-1.8,4-4,4h-82c-2.2,0-4-1.8-4-4v-7c0-2.2,1.8-4,4-4h82c2.2,0,4,1.8,4,4V341z"/>
+	<path class="st4" d="M157.5,341c0,2.2-1.8,4-4,4h-82c-2.2,0-4-1.8-4-4v-7c0-2.2,1.8-4,4-4h82c2.2,0,4,1.8,4,4V341z"/>
+</g>
+
+<!--right rack-->
+<g id="rightrack">
+	<path class="st1" d="M285,356c0,2.2-1.8,4-4,4h-97c-2.2,0-4-1.8-4-4V124c0-2.2,1.8-4,4-4h97c2.2,0,4,1.8,4,4V356z"/>
+</g>
+<!--right rack enclosure 10-->
+<g>
+	<path class="st1" d="M277.5,138.5c0,2.2-1.8,4-4,4h-82c-2.2,0-4-1.8-4-4v-7c0-2.2,1.8-4,4-4h82c2.2,0,4,1.8,4,4V138.5z"/>
+	<path class="st4" d="M277.5,138.5c0,2.2-1.8,4-4,4h-82c-2.2,0-4-1.8-4-4v-7c0-2.2,1.8-4,4-4h82c2.2,0,4,1.8,4,4V138.5z"/>
+</g>
+<!--right rack enclosure 9-->
+<g>
+	<path class="st1" d="M277.5,161c0,2.2-1.8,4-4,4h-82c-2.2,0-4-1.8-4-4v-7c0-2.2,1.8-4,4-4h82c2.2,0,4,1.8,4,4V161z"/>
+	<path class="st4" d="M277.5,161c0,2.2-1.8,4-4,4h-82c-2.2,0-4-1.8-4-4v-7c0-2.2,1.8-4,4-4h82c2.2,0,4,1.8,4,4V161z"/>
+</g>
+<!--right rack enclosure 8-->
+<g>
+	<path class="st1" d="M277.5,183.5c0,2.2-1.8,4-4,4h-82c-2.2,0-4-1.8-4-4v-7c0-2.2,1.8-4,4-4h82c2.2,0,4,1.8,4,4V183.5z"/>
+	<path class="st4" d="M277.5,183.5c0,2.2-1.8,4-4,4h-82c-2.2,0-4-1.8-4-4v-7c0-2.2,1.8-4,4-4h82c2.2,0,4,1.8,4,4V183.5z"/>
+</g>
+<!--right rack enclosure 7-->
+<g>
+	<path class="st1" d="M277.5,206c0,2.2-1.8,4-4,4h-82c-2.2,0-4-1.8-4-4v-7c0-2.2,1.8-4,4-4h82c2.2,0,4,1.8,4,4V206z"/>
+	<path class="st4" d="M277.5,206c0,2.2-1.8,4-4,4h-82c-2.2,0-4-1.8-4-4v-7c0-2.2,1.8-4,4-4h82c2.2,0,4,1.8,4,4V206z"/>
+</g>
+<!--right rack enclosure 6-->
+<g>
+	<path class="st1" d="M277.5,228.5c0,2.2-1.8,4-4,4h-82c-2.2,0-4-1.8-4-4v-7c0-2.2,1.8-4,4-4h82c2.2,0,4,1.8,4,4V228.5z"/>
+	<path class="st4" d="M277.5,228.5c0,2.2-1.8,4-4,4h-82c-2.2,0-4-1.8-4-4v-7c0-2.2,1.8-4,4-4h82c2.2,0,4,1.8,4,4V228.5z"/>
+</g>
+<!--right rack enclosure 5-->
+<g>
+	<path class="st1" d="M277.5,251c0,2.2-1.8,4-4,4h-82c-2.2,0-4-1.8-4-4v-7c0-2.2,1.8-4,4-4h82c2.2,0,4,1.8,4,4V251z"/>
+	<path class="st4" d="M277.5,251c0,2.2-1.8,4-4,4h-82c-2.2,0-4-1.8-4-4v-7c0-2.2,1.8-4,4-4h82c2.2,0,4,1.8,4,4V251z"/>
+</g>
+<!--right rack enclosure 4-->
+<g>
+	<path class="st1" d="M277.5,273.5c0,2.2-1.8,4-4,4h-82c-2.2,0-4-1.8-4-4v-7c0-2.2,1.8-4,4-4h82c2.2,0,4,1.8,4,4V273.5z"/>
+	<path class="st4" d="M277.5,273.5c0,2.2-1.8,4-4,4h-82c-2.2,0-4-1.8-4-4v-7c0-2.2,1.8-4,4-4h82c2.2,0,4,1.8,4,4V273.5z"/>
+</g>
+<!--right rack enclosure 3-->
+<g>
+	<path class="st1" d="M277.5,296c0,2.2-1.8,4-4,4h-82c-2.2,0-4-1.8-4-4v-7c0-2.2,1.8-4,4-4h82c2.2,0,4,1.8,4,4V296z"/>
+	<path class="st4" d="M277.5,296c0,2.2-1.8,4-4,4h-82c-2.2,0-4-1.8-4-4v-7c0-2.2,1.8-4,4-4h82c2.2,0,4,1.8,4,4V296z"/>
+</g>
+<!--right rack enclosure 2-->
+<g>
+	<path class="st1" d="M277.5,318.5c0,2.2-1.8,4-4,4h-82c-2.2,0-4-1.8-4-4v-7c0-2.2,1.8-4,4-4h82c2.2,0,4,1.8,4,4V318.5z"/>
+	<path class="st4" d="M277.5,318.5c0,2.2-1.8,4-4,4h-82c-2.2,0-4-1.8-4-4v-7c0-2.2,1.8-4,4-4h82c2.2,0,4,1.8,4,4V318.5z"/>
+</g>
+<!--right rack enclosure 1-->
+<g>
+	<path class="st1" d="M277.5,341c0,2.2-1.8,4-4,4h-82c-2.2,0-4-1.8-4-4v-7c0-2.2,1.8-4,4-4h82c2.2,0,4,1.8,4,4V341z"/>
+	<path class="st4" d="M277.5,341c0,2.2-1.8,4-4,4h-82c-2.2,0-4-1.8-4-4v-7c0-2.2,1.8-4,4-4h82c2.2,0,4,1.8,4,4V341z"/>
+</g>
+<!--chart line-->
+<polyline class="st5" points="310.9,341.2 333.7,323 356.4,326.6 379,288.6 401.5,303.8 "/>
+<!--chart circle 1 (from left)-->
+<circle class="point1" cx="310.9" cy="341.2" r="3.6"/>
+<circle class="point2" cx="333.7" cy="323" r="3.6"/>
+<circle class="point3" cx="356.4" cy="326.2" r="3.6"/>
+<circle class="point4" cx="379" cy="288.6" r="3.6"/>
+<circle class="point5" cx="401.5" cy="303.8" r="3.6"/>
+
+<!--outside circle white-->
+<path class="st7" d="M360,120L360,120c32.8-0.3,59.6,26,60,58.8c0,0.4,0,0.8,0,1.2c0,16-6.3,30.5-16.4,41.3"/>
+<!--middle circle white-->
+<path class="st7" d="M360,127.5c29,0,52.5,23.5,52.5,52.5c0,21.2-12.6,39.5-30.7,47.8"/>
+<!--inside circle white-->
+<path class="st7" d="M360,135c24.9,0,45,20.1,45,45s-20.1,45-45,45"/>
+</svg>
