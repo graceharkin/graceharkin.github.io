@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+  id="Layer_1"
+  width="300px"
+  height="300px"
+  viewBox="-9 0 85 65"
+  version="1.1"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>reg</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+
+    <style>
+
+
+.pen {animation: 5s check infinite;}
+
+@keyframes check {
+0% {transform:translateX(0px) translateY(0px); transition-timing-function: ease;}
+
+10% {transform:translateX(-20px) translateY(-10px);}
+13% {transform:translateX(-19px) translateY(-9px);}
+20% {transform:translateX(-18px) translateY(-10px);}
+
+25% {transform:translateX(-20px) translateY(-3px);}
+28% {transform:translateX(-19px) translateY(-2px);}
+35% {transform:translateX(-18px) translateY(-3px);}
+
+40% {transform:translateX(-20px) translateY(4px);}
+43% {transform:translateX(-19px) translateY(5px);}
+48% {transform:translateX(-19px) translateY(5px);}
+
+60% {transform:translateX(0px) translateY(0px); transition-timing-function: ease-in;}
+100% {transform:translateX(0px) translateY(0px);}
+
+}
+
+
+
+.topcheck {transform:scale(0.0);transform-origin: 50% 50%;}
+
+.topcheck {animation: 5s pop2 infinite;transform-origin: 30% 50%; transition-timing-function: ease-in-out;}
+
+@keyframes pop2 {
+0% {transform: scale(0.0);
+transform-origin: 0% 0%;}
+
+10% {transform: scale(0.0);
+transform-origin: 0% 0%;}
+
+13% {transform: scale(2.0);
+transform-origin: 0% 0%;}
+
+20% {transform: scale(1.0);
+transform-origin: 0% 0%;}
+
+95% {transform: scale(1.0);
+transform-origin: 0% 0%;}
+
+100% {transform: scale(1.0);
+transform-origin: 0% 0%;}
+}
+
+.check2 {transform:scale(0.0);transform-origin: 50% 50%;}
+
+.check2 {animation: 5s pop3 infinite;transform-origin: 50% 50%; transition-timing-function: ease-in-out;}
+
+@keyframes pop3 {
+0% {transform: scale(0.0);
+transform-origin: 0% 0%;}
+
+25% {transform: scale(0.0);
+transform-origin: 0% 0%;}
+
+28% {transform: scale(2.0);
+transform-origin: 0% 0%;}
+
+35% {transform: scale(1.0);
+transform-origin: 0% 0%;}
+
+95% {transform: scale(1.0);
+transform-origin: 0% 0%;}
+
+100% {transform: scale(1.0);
+transform-origin: 0% 0%;}
+}
+
+.check3 {transform: scale(0.0) translateX(0px) translateY(8px); transform-origin: 50% 50%;
+        animation: 5s pop4 infinite; transition-timing-function: ease-in-out;}
+  @keyframes pop4 {
+  0% {transform: scale(0.0) translateX(0px) translateY(8px); transform-origin: 0% 15%;}
+  40% {transform: scale(0.0) translateX(0px) translateY(8px); transform-origin: 0% 15%;}
+  43% {transform: scale(2.0) translateX(0px) translateY(8px); transform-origin: 0% 15%;}
+  50% {transform: scale(1.0) translateX(0px) translateY(8px); transform-origin: 0% 15%;}
+  100% {transform: scale(1.0) translateX(0px) translateY(8px); transform-origin: 0% 15%;}
+  }
+
+
+
+
+
+
+<!--turn off shadow
+.shadow {animation: 5s show infinite; transition-timing-function: ease;
+        }
+
+@keyframes show {
+0% {opacity: 0;}
+65% { opacity: 0;}
+80% {opacity: 1;}
+90% {opacity: 1;}
+100% {opacity: 0;}
+}
+-->
+
+<!--turn off shadow
+.bottomshadow {animation: 5s hide infinite;}
+
+@keyframes hide {
+0% {opacity: 1;}
+65% {opacity: 1;}
+75% {opacity: 0;}
+90% {opacity: 0;}
+100% {opacity: 0;}
+}
+-->
+
+<!--turn off bounce
+.paper {animation: 5s bounce infinite; transition-timing-function: ease;}
+
+@keyframes bounce {
+0% {transform: translateX(0px) translateY(0px); transform-origin: 50% 50%;}
+60% {transform: translateX(0px) translateY(0px) scale(1.0); transform-origin: 50% 50%;}
+65% {transform: translateX(0px) translateY(-4px) scale(1.05); transform-origin: 50% 50%; transition-timing-function: ease-in;}
+85% {transform: translateX(0px) translateY(0px); transform-origin: 50% 50%;}
+}
+-->
+.design {transform: translateX(2px) translateY(0px);}
+
+
+    </style>
+
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="reg">
+            <g id="Layer_1">
+              <!--shadow-->
+
+                <!--background circle-->
+                <circle id="Oval" fill="#FFF" fill-rule="nonzero" cx="32.8" cy="32.3" r="32.2"></circle>
+<g class="design">
+
+  <!--turn off shadow
+  <path class="bottomshadow" d="M15.9,52.1 L43.4,52.1" id="Shape" stroke="#C8C8C8" stroke-width="3" fill="#C8C8C8" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"></path>
+-->
+<g class="paper">
+
+  <!--turn off shadow
+  <path class="shadow" d="M40.8,15.7 C42.9,15.8 42.6,17.9 42.6,17.9 L42.6,45.7 L42.6,50.8 C42.6,52.1 41.6,53.1 40.3,53.1 L15.3,53.1 C14,53 13,52 13,50.8 L13,18 C13,15.7 15.3,15.7 15.3,15.7 L40.8,15.7 Z" id="Shape" stroke="#C8C8C8" stroke-width="2" fill="#C8C8C8" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"></path>
+-->
+                <path d="M43.3,13.6 C45.4,13.7 45.1,15.8 45.1,15.8 L45.1,43.6 L45.1,48.7 C45.1,50 44.1,51 42.8,51 L17.8,51 C16.5,51 15.5,50 15.5,48.7 L15.5,15.9 C15.5,13.6 17.8,13.6 17.8,13.6 L43.3,13.6 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+
+                <!--extra black outline-->
+                <path d="M44.9,45 L44.9,23.3" id="Shape" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <!--black outline-->
+                <path d="M27.8,13.6 L32.3,13.6" id="Shape" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M44.9,43.6 L44.9,48.7 C44.9,50 43.9,51 42.6,51 L17.6,51 C16.3,51 15.3,50 15.3,48.7 L15.3,15.9 C15.3,14.6 16.3,13.6 17.6,13.6" id="Shape" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M42.6,13.6 C43.9,13.6 44.9,14.6 44.9,15.9 L44.9,23.3" id="Shape" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+
+                <!--top gray line-->
+                <path class="line1" d="M29,25.5 L40.3,25.5" id="Shape" stroke="#BDCCD4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path class="line2" d="M29,33.4 L38.1,33.4" id="Shape" stroke="#BDCCD4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path class="line3" d="M29,41.4 L40.3,41.4" id="Shape" stroke="#BDCCD4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+
+                <!--prongs on top-->
+                <path d="M22.9,16.4 L22.5,16.4 C21.7,16.4 21,15.7 21,14.9 L21,10.3 C21,9.5 21.7,8.8 22.5,8.8 L22.9,8.8 C23.7,8.8 24.4,9.5 24.4,10.3 L24.4,14.9 C24.4,15.8 23.8,16.4 22.9,16.4 Z" id="Shape" stroke="#000000" fill="#7AC943" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M37.7,16.4 L37.3,16.4 C36.5,16.4 35.8,15.7 35.8,14.9 L35.8,10.3 C35.8,9.5 36.5,8.8 37.3,8.8 L37.7,8.8 C38.5,8.8 39.2,9.5 39.2,10.3 L39.2,14.9 C39.2,15.8 38.5,16.4 37.7,16.4 Z" id="Shape" stroke="#000000" fill="#7AC943" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"></path>
+
+                <!--green checks-->
+                <g id="Group" transform="translate(21.000000, 24.000000)" stroke="#7AC943" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                    <path class="topcheck" d="M0.1,1.8 L1.2,2.9" id="Shape"></path>
+                    <path class="topcheck" d="M4.1,0.1 L1.2,2.9" id="Shape"></path>
+                </g>
+
+                <g id="Group" transform="translate(21.000000, 32.000000)" stroke="#7AC943" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                    <path class="check2" d="M0.1,1.7 L1.2,2.9" id="Shape"></path>
+                    <path class="check2" d="M4.1,0 L1.2,2.9" id="Shape"></path>
+                      </g>
+
+                <g id="Group" transform="translate(21.000000, 32.000000)" stroke="#7AC943" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                      <path class="check3" d="M0.1,1.7 L1.2,2.9" id="Shape"></path>
+                    <path class="check3" d="M4.1,0 L1.2,2.9" id="Shape"></path>
+                        </g>
+                  </g>
+
+                <!--pen-->
+                <g id="pen" transform="translate(42.000000, 20.000000)" fill-rule="nonzero">
+                    <g class="pen" id="Group">
+                        <polygon id="Shape" stroke="#000000" fill="#000000" stroke-linecap="round" stroke-linejoin="round" points="0.4 12.7 12.5 0.1 16.4 3.7 4.2 16.3 0 17"></polygon>
+                        <polygon id="Shape" fill="#3FA9F5" points="12.2 7.4 5.3 14.5 2.2 11.5 9.1 4.5"></polygon>
+                        <polygon id="Shape" fill="#3FA9F5" points="15.7 3.7 12.9 6.7 9.8 3.7 12.6 0.8"></polygon>
+                        <polygon id="Shape" fill="#7AC943" points="0.6 16.4 1 13 1.6 12.3 4.6 15.2 4 15.9"></polygon>
+                </g>
+            </g>
+</g>
+
+          </g>
+        </g>
+    </g>
+</svg>
