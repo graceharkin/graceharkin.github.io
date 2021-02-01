@@ -1,299 +1,254 @@
-/***************************************************************
-These styles are subject to the following license agreement(s):
-
-https://store.typenetwork.com/cart/eula/carter-cone
-***************************************************************/
-
-
-
-
-.bigcaslonregular {
-    font-family: "Big Caslon Reg";
-    font-display: swap;
-    font-style: normal;
-    font-weight: normal;
-}
-
-
-
-
-.about {
-  margin: auto;
-  width: 50%;
-  text-align: center;}
-
-.about p {
-  text-align: left;}
-
-
-
-h2 {
-  font-family:'DM Serif Display', serif;}
-
-
-
-.column1 {
-  float: left;
-  width: 50%;}
-
-.column2 {
-  width: 50%;}
-
-.topnav {
-  float: right;
-  padding-right: 32px;
-  padding-top: 32px;}
-
-.topnav a {
-  float: right;
-  text-align: center;
-  text-decoration: none;
-  font-family:'Montserrat', sans-serif;
-  color: #e06a41;
-  text-decoration: none;
-  font-size: 20px;}
-
-.topnav a:hover {color: #f4e3c3;}
-
-.projects a {
-  font-family:'DM Serif Display', serif;
-  color: #f4e3c3;
-  text-decoration: none;
-  font-size: 50px;}
-
-.projects a:hover {
-  color: #e06a41;}
-
-.projects h1 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1rem;
-  color: #e06a41;
-  font-weight: 100;}
-
-.projects {
-  padding-left: 32px;
-  margin-top: 400px;}
-
-.nav {padding-left: 32px;
-  padding-top: 32px;}
-
-
 html, body {
   margin:0;
   padding:0;}
 
-/* width */
 ::-webkit-scrollbar {
   width: 0px;}
 
 
-
-
-.pageheader {
+/*top nav*/
+.title {
+  height: 10vh;
+  overflow: hidden;}
+.title a {
+  font-family: graphie, sans-serif;
+  font-weight: 700;
+  font-size: 2.5vw;
+  float: left;
   padding-left: 32px;
-  margin-bottom: 200px;}
-
-.pageheader h1 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1rem;
-  color: #37343E;
-  font-weight: 100;
-  margin-top: 32px;}
-
-.pageheader h2 {
-  color: #37343E;
-  font-family: 'DM Serif Display', serif;
-  font-size: 4rem;
-  margin-top: -10px;
-  margin-bottom: 32px;}
-
-.pageheader p {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.5rem;
-  color: #37343E;
-  width: 80%;
-  margin-top: 0px;}
+  font-style: normal;
+  text-decoration: none;
+  color: #2B1B20;
+  display: flex;
+  align-items: center;
+  height: 10vh;}
+a:hover {
+  color: #CA5743;}
+  .nav-right {float: right;
+  padding-right: 32px;}
+@media screen and (max-width: 1024px) {
+  .title a {font-size: 3.5vw;}}
+@media screen and (max-width: 600px) {
+  .title a {font-size: 6vw;}}
 
 
-.item {
-  margin: 0px;
-  padding: 0px;}
-
-.item img {
-  width: 100vw;
-  margin: 0px;;
-  padding: 0px;
-  display: block;}
-
-.item h3 {
-  font-family: 'Ovo', serif;
-  padding-left: 32px;
-  padding-top: 100px;}
-
-.item p {
-  font-family: 'Montserrat', sans-serif;
-  padding-left: 32px;
-  padding-bottom: 200px;
-  width: 40%;}
+/*header image*/
+.header {
+  height: 90vh;}
+.header img {
+  width: 10%;
+  margin-left: 45%;
+  margin-top: 30vh;}
+@media screen and (max-width: 1024px) {
+  .header img {
+    margin-left: 20%;
+    margin-right: 20%}}
+@media screen and (max-width: 600px) {
+  .thumbnail {
+    margin-left: 10%;
+    margin-right: 10%;}}
 
 
+/*description*/
+.description {margin: 16px;}
+.description p {max-width: 66%;}
+@media screen and (max-width: 800px) {
+  .description p {max-width: 100%;}}
 
 
+/*text styling*/
+p {
+  font-size: 20px;
+  max-width: 75%;}
+@media screen and (max-width: 600px) {
+  p {
+    max-width: 100%;}}
+@media screen and (max-width: 1320px) {
+  .columnB p {max-width: 100%;}}
+h2 {
+  font-family: graphie, sans-serif;
+  font-size: 15px;
+  font-weight: lighter;}
+h1 {
+  font-family:'Montserrat', sans-serif;
+  font-weight: 600;}
 
 
-  .pageheader .pagecontent {
-    animation: fadein ease 2s;
-    margin: 0px;
-    padding: 0px;}
-
-    @keyframes fadein {
-      0% {opacity: 0; transform: translate(0px, 50px);}
-  100% {opacity: 1; transform: translate(0px, 0px)}}
-
-  /* vimeo video styling */
-
-  .video-container {
-      position: relative;
-      padding-bottom: 56.25%;
-      padding-top: 0px;
-      height: 0;
-      overflow: hidden;
-      background-color: #76D0C0;}
-
-  .video-container iframe {
-      position: absolute;
-      top:0;
-      left: 0;
-      right: 0;
-      width: 100%;
-      height: 100%;}
-
-  .video-container2 {
-      position: relative;
-      padding-bottom: 56.25%;
-      padding-top: 0px;
-      height: 0;
-      overflow: hidden;
-      background-color: #76D0C0;}
-
-  .video-container2 iframe {
-      position: absolute;
-      top:0;
-      left: 0;
-      right: 0;
-      width: 100%;
-      height: 100%;
-      background-color: #31303C;}
-
-
-
-/* photography page lightbox styling */
-
+/*sections, rows, and columns styling*/
+.section {
+  padding-left: 16px;
+  padding-right: 16px;}
 .row {
   display: -ms-flexbox; /* IE10 */
   display: flex;
   -ms-flex-wrap: wrap; /* IE10 */
   flex-wrap: wrap;
-  padding: 0 4px;}
+  padding-top: 16px;
+  padding-bottom: 16px;}
+@media screen and (max-width: 1320px) {
+  .row {
+    margin: 0px;
+    padding: 0px;}}
 
-.column {
-  -ms-flex: 25%; /* IE10 */
-  flex: 25%;
-  max-width: 24%;
-  padding: 0 4px;}
-
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
-  width: 100%;}
-
+/*50% width columns*/
+.columnA {
+  -ms-flex: 47%; /* IE10 */
+  flex: 47%;
+  max-width: 49%;
+  margin-left: 16px;
+  margin-right: 16px;}
+@media screen and (max-width: 1320px) {
+    .columnA {
+      -ms-flex: 47%; /* IE10 */
+      flex: 47%;
+      max-width: 45%;
+      margin-top: 16px;
+      margin-bottom: 16px;
+      margin-left: 16px;
+      margin-right: 16px;}}
 @media screen and (max-width: 800px) {
-.column {
-  -ms-flex: 48%;
-  flex: 48%;
-  max-width: 48%;}}
+  .columnA {
+    -ms-flex: 100%; /* IE10 */
+    flex: 100%;
+    max-width: 100%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    margin-right: 16px;}}
 
-@media screen and (max-width: 600px) {
-.column {
-  -ms-flex: 100%;
+/*66% width columns*/
+.columnB {
+  -ms-flex: 63%; /* IE10 */
+  flex: 63%;
+  max-width: 66%;
+  margin-left: 16px;
+  margin-right: 16px;}
+@media screen and (max-width: 1320px) {
+  .columnB {
+    -ms-flex: 47%; /* IE10 */
+    flex: 47%;
+    max-width: 45%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    margin-right: 16px;}}
+@media screen and (max-width: 800px) {
+  .columnB {
+    -ms-flex: 100%; /* IE10 */
+    flex: 100%;
+    max-width: 100%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    margin-right: 16px;}}
+
+/*33% width columns*/
+.columnC {
+  -ms-flex: 31%; /* IE10 */
+  flex: 31%;
+  max-width: 32%;
+  margin-left: 16px;
+  margin-right: 16px;}
+@media screen and (max-width: 1320px) {
+  .columnC {
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+    max-width: 50%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    margin-right: 16px;}}
+@media screen and (max-width: 800px) {
+  .columnC {
+    -ms-flex: 100%; /* IE10 */
+    flex: 100%;
+    max-width: 100%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    margin-right: 16px;}}
+
+/*100% width columns*/
+.columnD {
+  -ms-flex: 100%; /* IE10 */
   flex: 100%;
-  max-width: 100%;}}
+  max-width: 100%;
+  margin-left: 16px;
+  margin-right: 16px;}
+@media screen and (max-width: 1320px) {
+  .columnD {
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+    max-width: 50%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    margin-right: 16px;}}
+@media screen and (max-width: 800px) {
+  .columnD {
+    -ms-flex: 100%; /* IE10 */
+    flex: 100%;
+    max-width: 100%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    margin-right: 16px;}}
 
-#myImg:hover {opacity: 0.7;}
-#myImg1:hover {opacity: 0.7;}
-#myImg2:hover {opacity: 0.7;}
-#myImg3:hover {opacity: 0.7;}
-#myImg4:hover {opacity: 0.7;}
-#myImg5:hover {opacity: 0.7;}
-#myImg6:hover {opacity: 0.7;}
-#myImg7:hover {opacity: 0.7;}
-#myImg8:hover {opacity: 0.7;}
-#myImg9:hover {opacity: 0.7;}
-#myImg10:hover {opacity: 0.7;}
-#myImg11:hover {opacity: 0.7;}
-#myImg12:hover {opacity: 0.7;}
-#myImg13:hover {opacity: 0.7;}
-#myImg14:hover {opacity: 0.7;}
-#myImg15:hover {opacity: 0.7;}
-#myImg16:hover {opacity: 0.7;}
-#myImg17:hover {opacity: 0.7;}
-#myImg18:hover {opacity: 0.7;}
 
-
-/* The Modal (background) */
-.modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.8); /* Black w/ opacity */
-      }
-
-/* Modal Content (image) */
-.modal-content {
-  margin: auto;
-  display: block;
-  width: 90%;
-  max-width: 1000px;}
-
-/* Add Animation */
-.modal-content, #caption {
-  -webkit-animation-name: zoom;
-  -webkit-animation-duration: 0.6s;
-  animation-name: zoom;
-  animation-duration: 0.6s;}
-
-@-webkit-keyframes zoom {
-  from {-webkit-transform:scale(0.8)}
-  to {-webkit-transform:scale(1)}}
-
-@keyframes zoom {
-  from {transform:scale(0.8)}
-  to {transform:scale(1)}}
-
-/* The Close Button */
-.close {
+/*thumbnail styling*/
+.thumbnail {
+  width: 25%;
+  height: 45vh;
+  position: relative;
+  text-align: center;}
+.thumbnail img {
+  width: 100%;
+  height: 100%;
   position: absolute;
-  top: 15px;
-  right: 35px;
-  color: #f1f1f1;
-  font-size: 40px;
-  font-weight: bold;
-  transition: 0.3s;}
+  top: 50%;
+  bottom: 50%;
+  transform: translate(-50%, -50%);}
+.thumbnail:hover img {
+  opacity: 0.25;}
+.thumbnail:hover .name {
+  visibility: visible;
+  color: #2B1B20;}
+.name {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  visibility: hidden;}
+.name2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  visibility: hidden;}
+.thumbnail:hover .name2 {
+  visibility: visible;
+  color: #FDEEDA;}
 
-.close:hover,
-.close:focus {
-  color: #bbb;
-  text-decoration: none;
-  cursor: pointer;}
+/*thumbnail responsive styling*/
+@media screen and (max-width: 1024px) {
+  .thumbnail {width: 50%;}}
+@media screen and (max-width: 600px) {
+  .thumbnail {width: 100%;
+    margin: 0px;
+    padding: 0px;}}
 
-/* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 700px){
-.modal-content {
-  width: 100%;}}
+
+/*video media styling*/
+.video {
+  margin: 0px;
+  padding: 0px;}
+.video iframe {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;}
+video {
+    width: 100%;}
+@media screen and (max-width: 1200px) {
+  video {width: 75%;}}
+@media screen and (max-width: 800px) {
+  video {width: 75%;}}
