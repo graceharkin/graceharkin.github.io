@@ -53,6 +53,8 @@ a:hover {
 /*description*/
 .description {margin: 16px;}
 
+@media screen and (max-width: 1000px) {
+  .description {max-width: 100%;}}
 
 @media screen and (max-width: 1024px) {
   p {max-width: 100%;}}
@@ -100,13 +102,12 @@ line-height: normal;}
 
 @media screen and (max-width: 1000px) {
   h1 {width: 100vw;
-    font-size: 50px;
+    font-size: 100px;
     }}
-
-
 
     @media screen and (max-width: 1000px) {
       h2 {width: 80%;
+        font-size: 75px;
         }}
 
 h3 {
