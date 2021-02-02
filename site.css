@@ -75,7 +75,7 @@ max-width: 66%;}
   .description p {max-width: 100%;}}
 
   @media screen and (max-width: 1000px) {
-    .description p {font-size: 50px;
+    .description p {font-size: 60px;
       max-width: 100%;}}
 
   .columnC p {font-family: freight-big-pro, serif;
@@ -84,7 +84,7 @@ max-width: 66%;}
   font-size: 25px;}
 
   @media screen and (max-width: 1000px) {
-    .columnC p {font-size: 50px;
+    .columnC p {font-size: 60px;
       max-width: 100%;}}
 
 
