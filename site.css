@@ -84,7 +84,7 @@ max-width: 66%;}
   font-size: 25px;}
 
   @media screen and (max-width: 1000px) {
-    .columnC p {font-size: 20px;
+    .columnC p {font-size: 50px;
       max-width: 100%;}}
 
 
