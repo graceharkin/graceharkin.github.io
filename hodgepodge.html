@@ -30,11 +30,6 @@
   .header {background-size: 40%;}
 }
 
-
-.section {
-    animation: fadein ease 1s
-}
-
 @keyframes fadein {
     0% {opacity: 0;
       transform: translate(0px, 20px);
@@ -43,6 +38,56 @@
     transform: translate(0px, 0px)}
 }
 
+/*66% width columns*/
+.columnB {
+  -ms-flex: 63%; /* IE10 */
+  flex: 63%;
+  max-width: 66%;
+  margin-left: 16px;
+  margin-right: 16px;}
+@media screen and (max-width: 1112px) {
+  .columnB {
+    -ms-flex: 100%; /* IE10 */
+    flex: 100%;
+    max-width: 100%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    margin-right: 16px;}}
+@media screen and (max-width: 800px) {
+  .columnB {
+    -ms-flex: 100%; /* IE10 */
+    flex: 100%;
+    max-width: 100%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    margin-right: 16px;}}
+
+/*33% width columns*/
+.columnC {
+  -ms-flex: 31%; /* IE10 */
+  flex: 31%;
+  max-width: 32%;
+  margin-left: 16px;
+  margin-right: 16px;}
+@media screen and (max-width: 1112px) {
+  .columnC {
+    flex: 100%;
+    max-width: 100%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    margin-right: 16px;}}
+@media screen and (max-width: 800px) {
+  .columnC {
+    -ms-flex: 100%; /* IE10 */
+    flex: 100%;
+    max-width: 100%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    margin-right: 16px;}}
 
 </style>
 
