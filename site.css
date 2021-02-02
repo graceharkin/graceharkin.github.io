@@ -75,7 +75,7 @@ max-width: 66%;}
   .description p {max-width: 100%;}}
 
   @media screen and (max-width: 1000px) {
-    .description p {font-size: 20px;
+    .description p {font-size: 50px;
       max-width: 100%;}}
 
   .columnC p {font-family: freight-big-pro, serif;
@@ -90,7 +90,7 @@ max-width: 66%;}
 
 h2 {
   font-family: graphie, sans-serif;
-  font-size: 15px;
+  font-size: 50px;
   font-weight: lighter;}
 h1 {
   font-family: graphie, sans-serif;
@@ -108,7 +108,7 @@ font-size: 7vw;}
 
 h3 {
     font-family: graphie, sans-serif;
-    font-size: 50px;
+    font-size: 70px;
     font-weight: bold;}
 
 
