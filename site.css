@@ -29,7 +29,7 @@ a:hover {
   padding-right: 32px;}
 @media screen and (max-width: 1024px) {
   .title a {font-size: 3.5vw;}}
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
   .title a {font-size: 6vw;}}
 
 
@@ -44,7 +44,7 @@ a:hover {
   .header img {
     margin-left: 20%;
     margin-right: 20%}}
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
   .thumbnail {
     margin-left: 10%;
     margin-right: 10%;}}
@@ -57,7 +57,7 @@ a:hover {
 @media screen and (max-width: 1024px) {
   p {max-width: 100%;}}
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   p {max-width: 100%;}}
 
 
@@ -74,7 +74,7 @@ max-width: 66%;}
 @media screen and (max-width: 1024px) {
   .description p {max-width: 100%;}}
 
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 1000px) {
     .description p {font-size: 20px;
       max-width: 100%;}}
 
@@ -83,7 +83,7 @@ max-width: 66%;}
   font-style: normal;
   font-size: 25px;}
 
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 1000px) {
     .columnC p {font-size: 20px;
       max-width: 100%;}}
 
@@ -97,12 +97,12 @@ h1 {
   font-weight: 600;
 font-size: 7vw;}
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
   h1 {width: 100vw;
     font-size: 8vw;
     }}
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 1000px) {
       h2 {width: 80%;
         }}
 
@@ -144,7 +144,7 @@ h3 {
       margin-bottom: 16px;
       margin-left: 16px;
       margin-right: 16px;}}
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   .columnA {
     -ms-flex: 100%; /* IE10 */
     flex: 100%;
@@ -170,7 +170,7 @@ h3 {
     margin-bottom: 16px;
     margin-left: 16px;
     margin-right: 16px;}}
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   .columnB {
     -ms-flex: 100%; /* IE10 */
     flex: 100%;
@@ -221,7 +221,7 @@ h3 {
     margin-bottom: 16px;
     margin-left: 16px;
     margin-right: 16px;}}
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   .columnD {
     -ms-flex: 100%; /* IE10 */
     flex: 100%;
@@ -270,15 +270,11 @@ height: 45vh;
 /*thumbnail responsive styling*/
 @media screen and (max-width: 1024px) {
   .thumbnail {width: 50%;}}
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   .thumbnail {width: 100%;
     margin: 0px;
     padding: 0px;}}
 
-    @media screen and (max-width: 400px) {
-      .thumbnail {width: 100%;
-        margin: 0px;
-        padding: 0px;}}
 
 
 /*video media styling*/
