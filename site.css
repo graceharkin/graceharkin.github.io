@@ -8,10 +8,18 @@ html, body {
 
 
 /*top nav*/
-.title {
+#title {
   height: 10vh;
-  overflow: hidden;}
-.title a {
+  overflow: hidden;
+  background-color: #FDEFDB;
+  z-index: 9999;
+  position: fixed;
+  width: 100%;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+#title a {
   font-family: graphie, sans-serif;
   font-weight: 700;
   font-size: 2.5vw;
@@ -22,20 +30,30 @@ html, body {
   color: #2B1B20;
   display: flex;
   align-items: center;
-  height: 10vh;}
-a:hover {
+  height: 10vh;
+
+}
+#title a:hover {
   color: #CA5743;}
+
   .nav-right {float: right;
   padding-right: 32px;}
+
 @media screen and (max-width: 1024px) {
-  .title a {font-size: 3.5vw;}}
+  #title a {font-size: 3.5vw;}}
 @media screen and (max-width: 1000px) {
-  .title a {font-size: 6vw;}}
+  #title a {font-size: 6vw;}}
+
+.content {
+  padding: 10vh;
+}
 
 
 /*header image*/
 .header {
-  height: 90vh;}
+  height: 100vh;
+}
+
 .header img {
   width: 10%;
   margin-left: 45%;
