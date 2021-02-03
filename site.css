@@ -102,7 +102,7 @@ max-width: 66%;}
   .description p {max-width: 100%;}}
 
   @media screen and (max-width: 414px) {
-    .description p {font-size: 30px;
+    .description p {font-size: 20px;
       max-width: 100%;}}
 
   .columnC p {font-family: freight-big-pro, serif;
@@ -111,7 +111,7 @@ max-width: 66%;}
   font-size: 25px;}
 
   @media screen and (max-width: 414px) {
-    .columnC p {font-size: 30px;
+    .columnC p {font-size: 20px;
       max-width: 100%;}}
 
       .columnA p {font-family: freight-big-pro, serif;
@@ -120,7 +120,7 @@ max-width: 66%;}
       font-size: 25px;}
 
       @media screen and (max-width: 414px) {
-        .columnA p {font-size: 30px;
+        .columnA p {font-size: 20px;
           max-width: 100%;}}
 
 
@@ -136,12 +136,12 @@ line-height: normal;}
 
 @media screen and (max-width: 414px) {
   h1 {width: 100%;
-    font-size: 50px;
+    font-size: 40px;
     }}
 
     @media screen and (max-width: 414px) {
       h2 {
-        font-size: 30px;
+        font-size: 25px;
         }}
 
 h3 {
