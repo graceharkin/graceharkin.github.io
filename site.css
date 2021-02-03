@@ -49,7 +49,10 @@ html, body {
 }
 
 @media screen and (max-width: 414px) {
-  .content {padding: 2vh;}}
+  .content {padding-top: 10vh;
+    padding-left: 1vh;
+    padding-right: 1vh;
+    padding-bottom: 1vh;}}
 
 
 /*header image*/
