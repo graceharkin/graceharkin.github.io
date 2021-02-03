@@ -48,6 +48,9 @@ html, body {
   padding: 10vh;
 }
 
+@media screen and (max-width: 414px) {
+  .content {padding: 2vh;}}
+
 
 /*header image*/
 .header {
@@ -95,8 +98,8 @@ max-width: 66%;}
 @media screen and (max-width: 1112px) {
   .description p {max-width: 100%;}}
 
-  @media screen and (max-width: 1000px) {
-    .description p {font-size: 60px;
+  @media screen and (max-width: 414px) {
+    .description p {font-size: 30px;
       max-width: 100%;}}
 
   .columnC p {font-family: freight-big-pro, serif;
@@ -104,8 +107,8 @@ max-width: 66%;}
   font-style: normal;
   font-size: 25px;}
 
-  @media screen and (max-width: 1000px) {
-    .columnC p {font-size: 60px;
+  @media screen and (max-width: 414px) {
+    .columnC p {font-size: 30px;
       max-width: 100%;}}
 
       .columnA p {font-family: freight-big-pro, serif;
@@ -113,8 +116,8 @@ max-width: 66%;}
       font-style: normal;
       font-size: 25px;}
 
-      @media screen and (max-width: 1000px) {
-        .columnA p {font-size: 60px;
+      @media screen and (max-width: 414px) {
+        .columnA p {font-size: 30px;
           max-width: 100%;}}
 
 
@@ -128,14 +131,14 @@ h1 {
 font-size: 100px;
 line-height: normal;}
 
-@media screen and (max-width: 1000px) {
-  h1 {width: 100vw;
-    font-size: 100px;
+@media screen and (max-width: 414px) {
+  h1 {width: 100%;
+    font-size: 50px;
     }}
 
-    @media screen and (max-width: 1000px) {
-      h2 {width: 80%;
-        font-size: 75px;
+    @media screen and (max-width: 414px) {
+      h2 {
+        font-size: 30px;
         }}
 
 h3 {
@@ -264,48 +267,9 @@ h3 {
     margin-right: 16px;}}
 
 
-/*thumbnail styling*/
-.thumbnail {
-  width: 25%;
-  height: 45vh;
-  position: relative;
-  text-align: center;
-}
-.thumbnail img {
-  width: 80%;
-  text-align: center;
-height: 45vh;
-  }
 
-.thumbnail:hover img {
-  opacity: 0.25;}
 
-.thumbnail:hover .name {
-  visibility: visible;
-  color: #2B1B20;}
-.name {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  visibility: hidden;}
-.name2 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  visibility: hidden;}
-.thumbnail:hover .name2 {
-  visibility: visible;
-  color: #FDEEDA;}
 
-/*thumbnail responsive styling*/
-@media screen and (max-width: 1024px) {
-  .thumbnail {width: 50%;}}
-@media screen and (max-width: 1000px) {
-  .thumbnail {width: 100%;
-    margin: 0px;
-    padding: 0px;}}
 
 
 
