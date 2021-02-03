@@ -55,11 +55,9 @@ html, body {
 /*header image*/
 .header {
   height: 100vh;
+  width: 100%;
 }
-
-
-
-    @media screen and (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
       .header {width: 100%;
         margin-right: 0px;
       padding-right: 0px;}
