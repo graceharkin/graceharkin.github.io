@@ -49,9 +49,7 @@ html, body {
 }
 
 @media screen and (max-width: 1000px) {
-  .content {padding: 2vh;
-    margin-right: 0px;
-    padding-right: 0vh;}}
+  .content {padding: 0vh;}}
 
 
 /*header image*/
@@ -76,8 +74,26 @@ html, body {
 .description {margin: 16px;}
 
 @media screen and (max-width: 1112px) {
-  .description {max-width: 100%;
-    margin-right: 0px;}}
+  .description {max-width: 100%;}}
+
+  @media screen and (max-width: 1000px) {
+    .description {max-width: 100%;
+      margin: 0px;}}
+
+      .description p {font-family: freight-big-pro, serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 25px;
+    max-width: 66%;}
+
+    @media screen and (max-width: 1112px) {
+      .description p {max-width: 100%;}}
+
+      @media screen and (max-width: 1000px) {
+        .description p {font-size: 60px;
+          max-width: 100%;
+          margin: 0px;
+          padding: 0px;}}
 
 @media screen and (max-width: 1112px) {
   p {max-width: 100%;}}
@@ -90,19 +106,7 @@ html, body {
 
 /*text styling*/
 
-  .description p {font-family: freight-big-pro, serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 25px;
-max-width: 66%;}
 
-@media screen and (max-width: 1112px) {
-  .description p {max-width: 100%;}}
-
-  @media screen and (max-width: 1000px) {
-    .description p {font-size: 60px;
-      max-width: 100%;
-      margin-right: 0px;}}
 
   .columnC p {font-family: freight-big-pro, serif;
   font-weight: 400;
