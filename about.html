@@ -9,13 +9,97 @@
 <link rel="stylesheet" href="https://use.typekit.net/ual1uxe.css">
 <link rel="stylesheet" href="https://use.typekit.net/ual1uxe.css">
 <link href="https://cloud.typenetwork.com/projects/4644/fontface.css/" rel="stylesheet" type="text/css">
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <style>
 
-h1 {color: #FDEEDA;}
-p {color: #FDEEDA;}
-.title a:hover {color: #FDEEDA;}
+#title {background-color: #CA5743;}
+#title a:hover {color: #FDEFDB;}
+
+.content {padding: 15vh;
+  padding-bottom: 10vh;
+}
+
+@media screen and (max-width: 414px) {
+  .content {padding-top: 10vh;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    padding-bottom: 5vh;}}
+
+h1 {
+  font-family: graphie, sans-serif;
+  font-weight: 600;
+font-size: 50px;
+line-height: normal;
+color: #FDEFDB;}
+
+@media screen and (max-width: 414px) {
+  h1 {
+  font-size: 30px;}
+}
+
+p {
+  font-family: graphie, sans-serif;
+  font-size: 20px;
+  font-weight: lighter;}
+
+  @media screen and (max-width: 414px) {
+    p {
+    font-size: 15px;}
+  }
+
+
+  /* unvisited link */
+a:link {
+  color: #22CEC4;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: #22CEC4;
+}
+
+/* mouse over link */
+a:hover {
+  color: #28E9DE;
+}
+
+/* selected link */
+a:active {
+  color: #22CEC4;
+}
+
+
+.contact a {font-size: 4rem;
+padding: 32px;
+color: #2B1B20;}
+
+@media screen and (max-width: 414px) {
+  .contact a {
+  font-size: 3rem;
+padding: 16px;}
+}
+
+.contact a:hover{color: #FDEFDB;}
+
+
+footer {width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+@media screen and (max-width: 1112px) {
+footer {width: 100%;
+  bottom:auto;
+  position: absolute;
+}}
+
+footer p {
+text-align: left;
+margin-left: 32px;
+width: 100%;}
 
 </style>
 
@@ -24,31 +108,35 @@ p {color: #FDEEDA;}
 
 <body style="background-color:#CA5743;">
 
-<div class="title">
+<div id="title">
 <a href="index.html">GRACE HARKIN</a>
 <div class="nav-right">
 <a href="about.html">about</a>
 </div>
 </div>
 
-<div class="section">
-<div class="row">
+<div class="content">
 
-<div class="columnA">
-  <h1>visual designer</h1>
-<p>I'm currently a visual designer on an IBM product team based in California. My prior occupations have included internships at other enterprise companies, freelance motion design, and being a blog writer, photographer, and graphic designer for my alma mater's recreation center.
-</p>
+
+  <h1>Grace is a visual designer currently working for an IBM product team based in California.
+    She likes to think she is also a <a href="https://soundcloud.com/g-harkin/memory" target="_blank">musician</a>, espresso connoisseur, and sustainable product enthusiast.
+  She has passions for people and problem solving and is always trying to learn something new. She's an Enneagram <a href="https://www.enneagraminstitute.com/type-6" target="_blank">Type 6.</a>
+</h1>
+
+
+
+<div class="contact">
+  <center><a href="mailto:design@graceharkin.com" class="fa fa-envelope-o" aria-hidden="true" target="_blank"></a>
+    <a href="https://www.linkedin.com/in/grace-harkin-design/" class="fa fa-linkedin" target="_blank"></a>
+    <a href="https://dribbble.com/graceharkin" class="fa fa-dribbble" target="_blank"></a>
+  <a href="https://github.com/graceharkin" class="fa fa-github" target="_blank"></a></h5></center>
 </div>
 
-
-</div>
 </div>
 
-
-
-
-
-
+<footer>
+<p>Designed + developed by Grace Harkin</p>
+</footer>
 
 <script src="aos-master/dist/aos.js"></script>
 <script>
