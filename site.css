@@ -319,7 +319,7 @@ video {
     bottom: 0;
 
     /* A bit of padding around image */
-    padding: 10vh;
+    padding: 5vh;
 
     /* Translucent background */
     background: rgba(0, 0, 0, 0.8);
