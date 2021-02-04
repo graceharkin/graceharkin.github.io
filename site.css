@@ -326,8 +326,14 @@ video {
   }
 
   /* Unhide the lightbox when it's the target */
-  .lightbox:target {
+  .lightbox:target {animation: open .35s ease-in-out;
     display: block;
+  }
+
+
+  @keyframes open {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
   }
 
   .lightbox span {
