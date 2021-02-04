@@ -17,6 +17,7 @@ html, body {
   width: 100%;
   margin-top: 0px;
   padding-top: 0px;
+  margin-bottom: 10vh;
 }
 
 #title a {
@@ -44,6 +45,9 @@ html, body {
 @media screen and (max-width: 1000px) {
   #title a {font-size: 6vw;}}
 
+
+  .top {height: 10vh;}
+
 .content {
   padding: 10vh;
 }
@@ -57,7 +61,10 @@ html, body {
 
 /*header image*/
 .header {
-  height: 100vh;
+  height: 90vh;
+  background-position: center;
+  background-repeat: no-repeat;
+
 }
 
 .header img {
