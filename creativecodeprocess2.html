@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<link href="site.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="stylesheet" href="aos-master/dist/aos.css" />
+
+<link rel="stylesheet" href="https://use.typekit.net/ual1uxe.css">
+<link rel="stylesheet" href="https://use.typekit.net/ual1uxe.css">
+<link href="https://cloud.typenetwork.com/projects/4644/fontface.css/" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://use.typekit.net/ual1uxe.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="site.js">
+
+
+<style>
+
+.header {
+  background-image: url(img/creativecode/logo.svg);
+  background-size: 40%;
+}
+
+@media screen and (max-width: 1112px) {
+  .header {background-size: 60%;}
+}
+
+@media screen and (max-width: 414px) {
+  .header {background-size: 80%;}
+}
+
+iframe {width: 100%;
+margin: 0px;
+padding: 0px;
+height: 800px;}
+
+@media screen and (max-width: 1320px) {
+    iframe {height: 500px;}
+    }
+
+    @media screen and (max-width: 1000px) {
+        iframe {height: 350px;}
+        }
+
+/*50% width columns*/
+.columnA {
+  -ms-flex: 47%; /* IE10 */
+  flex: 47%;
+  margin-top: 32px;
+  max-width: 49%;
+  margin-left: 16px;
+  margin-right: 16px;}
+@media screen and (max-width: 1320px) {
+    .columnA {
+      -ms-flex: 100%; /* IE10 */
+      flex: 100%;
+      max-width: 100%;
+      margin-top: 16px;
+      margin-bottom: 16px;
+      margin-left: 16px;
+      margin-right: 16px;}}
+@media screen and (max-width: 1000px) {
+  .columnA {
+    -ms-flex: 100%; /* IE10 */
+    flex: 100%;
+    max-width: 100%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    margin-right: 16px;}}
+
+/*66% width columns*/
+.columnB {
+  -ms-flex: 63%; /* IE10 */
+  flex: 63%;
+  max-width: 66%;
+  margin-left: 16px;
+  margin-right: 16px;}
+@media screen and (max-width: 1320px) {
+  .columnB {
+    -ms-flex: 100%; /* IE10 */
+    flex: 100%;
+    max-width: 100%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    margin-right: 16px;}}
+@media screen and (max-width: 1000px) {
+  .columnB {
+    -ms-flex: 100%; /* IE10 */
+    flex: 100%;
+    max-width: 100%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    margin-right: 16px;}}
+
+.row {margin-top: 16px;}
+
+/*33% width columns*/
+.columnC {
+  -ms-flex: 31%; /* IE10 */
+  flex: 31%;
+  max-width: 32%;
+
+  margin-left: 16px;
+  margin-right: 16px;}
+@media screen and (max-width: 1320px) {
+  .columnC {
+    -ms-flex: 100%; /* IE10 */
+    flex: 100%;
+    max-width: 100%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    margin-right: 16px;}}
+@media screen and (max-width: 1000px) {
+  .columnC {
+    -ms-flex: 100%; /* IE10 */
+    flex: 100%;
+    max-width: 100%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    margin-right: 16px;}}
+
+/*100% width columns*/
+.columnD {
+  -ms-flex: 100%; /* IE10 */
+  flex: 100%;
+  max-width: 100%;
+  margin-left: 16px;
+  margin-right: 16px;
+text-align: center;}
+@media screen and (max-width: 1320px) {
+  .columnD {
+    -ms-flex: 100%; /* IE10 */
+    flex: 100%;
+    max-width: 100%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    margin-right: 16px;}}
+@media screen and (max-width: 1000px) {
+  .columnD {
+    -ms-flex: 100%; /* IE10 */
+    flex: 100%;
+    max-width: 100%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    margin-right: 16px;}}
+
+
+video {width: 100%;}
+
+h2 {
+  font-family: graphie, sans-serif;
+  font-weight: 600;
+font-size: 70px;
+line-height: normal;}
+
+h3 {  font-family: graphie, sans-serif;
+  font-size: 30px;
+  font-weight: lighter;}
+
+p {font-family: freight-big-pro, serif;
+font-weight: 400;
+font-style: normal;
+font-size: 50px;}
+
+.section {padding-top: 10%;}
+
+.columnC h3 {text-align: center;}
+
+.columnD p {max-width: 50%;
+margin-left: 25%;}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  font-family: system-ui, sans-serif;
+
+  /* this breaks position sticky in Firefox */
+  /* overflow-x: hidden; */
+}
+header {
+  grid-column: 1 / 3;
+  background: #455A64;
+  color: white;
+  padding: 4rem;
+  text-align: center;
+}
+nav {
+  margin-top: 2%;
+  white-space: nowrap;
+position: fixed;
+z-index: 99;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/* Only stick if you can fit */
+@media (min-height: 300px) {
+  nav ul {
+    position: sticky;
+    top: 0;
+  }
+}
+nav ul li a svg {
+  display: block;
+  padding: 0.25rem 0rem;
+  color: #2B1B20;
+  text-decoration: none;
+}
+
+nav ul li a svg {
+  fill: #2B1B20;
+}
+
+nav ul li a svg circle:hover {
+  stroke: #CA5743;
+}
+
+nav ul li a.current svg circle{
+  stroke: #CA5743;
+  r: 9;
+}
+
+nav .arrow svg:hover line {stroke: #CA5743;}
+nav .arrow svg:hover polyline {stroke: #CA5743;}
+
+
+section {margin-left: 64px;}
+
+nav .arrow {padding-bottom: 150px;}
+
+a {color: #2B1B20;
+text-decoration: none;
+font-family: graphie, sans-serif;
+font-weight: 600;
+font-size: 30px;
+line-height: normal;}
+
+a:hover {color: #CA5743}
+
+</style>
+
+</head>
+
+
+<body style="background-color:#FDEFDB;">
+
+<div class="top">
+<div id="title">
+<a href="index.html">GRACE HARKIN</a>
+<div class="nav-right">
+<a href="about.html">about</a>
+</div>
+</div>
+</div>
+
+
+
+
+
+<div class="content">
+
+
+  <nav>
+    <div class="arrow">
+    <a href="creativecode.html">
+      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+      	 viewBox="0 0 32 26" style="enable-background:new 0 0 32 26;" xml:space="preserve">
+
+      <line class="st0" x1="3.3" y1="13" x2="31.7" y2="13" stroke="#2B1B1F" fill="none" stroke-width="3" stroke-meter-limit="10" />
+      <polyline class="st0" points="13.8,24.9 1.9,13 13.9,0.9 " stroke="#2B1B1F" fill="none" stroke-width="3" stroke-meter-limit="10" />
+      </svg>
+    </div>
+
+
+    </a>
+    <ul>
+      <li><a href="#section-1">
+        <svg height="25" width="25">
+          <circle cx="15" cy="15" r="5" stroke="black" stroke-width="2" fill=#FDEFDB />
+        </svg>
+      </a></li>
+      <li><a href="#section-2"><svg height="25" width="25">
+        <circle cx="15" cy="15" r="5" stroke="black" stroke-width="2" fill=#FDEFDB />
+      </svg></a></li>
+      <li><a href="#section-3">
+        <svg height="25" width="25">
+          <circle cx="15" cy="15" r="5" stroke="black" stroke-width="2" fill=#FDEFDB />
+        </svg>
+      </a></li>
+      <li><a href="#section-4">
+        <svg height="25" width="25">
+          <circle cx="15" cy="15" r="5" stroke="black" stroke-width="2" fill=#FDEFDB />
+        </svg></a></li>
+      <li><a href="#section-5">
+        <svg height="25" width="25">
+          <circle cx="15" cy="15" r="5" stroke="black" stroke-width="2" fill=#FDEFDB />
+        </svg></a></li>
+      <li><a href="#section-6">
+        <svg height="25" width="25">
+          <circle cx="15" cy="15" r="5" stroke="black" stroke-width="2" fill=#FDEFDB />
+        </svg></a></li>
+      <li><a href="#section-7">
+        <svg height="25" width="25">
+          <circle cx="15" cy="15" r="5" stroke="black" stroke-width="2" fill=#FDEFDB />
+        </svg></a></li>
+      <li><a href="#section-8">
+        <svg height="25" width="25">
+          <circle cx="15" cy="15" r="5" stroke="black" stroke-width="2" fill=#FDEFDB />
+        </svg></a></li>
+      <li><a href="#section-9">
+        <svg height="25" width="25">
+          <circle cx="15" cy="15" r="5" stroke="black" stroke-width="2" fill=#FDEFDB />
+        </svg></a></li>
+        <li><a href="#section-10">
+          <svg height="25" width="25">
+            <circle cx="15" cy="15" r="5" stroke="black" stroke-width="2" fill=#FDEFDB />
+          </svg></a></li>
+          <li><a href="#section-11">
+            <svg height="25" width="25">
+              <circle cx="15" cy="15" r="5" stroke="black" stroke-width="2" fill=#FDEFDB />
+            </svg></a></li>
+    </ul>
+  </nav>
+
+
+<section id="section-1">
+<div data-aos="fade-up" data-aos-duration="2000">
+<div class="section">
+<div class="row">
+<div class="columnD">
+  <h2>Problem</h2>
+  <p><span style="color: #CA5743">Designers who code</span> and <span style="color: #CA5743">developers who design</span> need a space to learn, create and share work, and collaborate on skills and projects.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="section-2">
+<div data-aos="fade-up" data-aos-duration="2000">
+<div class="section">
+<div class="row">
+<div class="columnD">
+  <h2>Solution</h2>
+  <p>An online community for web designers and developers where they can create and share work, read articles, apply for jobs, and more.
+    This platform consists of an online code editor and a Sketch file previewer, making it useful for those who design, those who code, and those who do both.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+<section id="section-3">
+<div data-aos="fade-up" data-aos-duration="2000">
+<div class="section">
+<div class="row">
+<div class="columnD">
+  <h2>Requirements</h2>
+  <p>Brand identity<br>Advertising (print, digital, & animated)<br>User interface<br>Publication (print)</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+<section id="section-4">
+<div data-aos="fade-up" data-aos-duration="2000">
+<div class="section">
+<div class="row">
+<div class="columnD">
+  <h2>Personas</h2>
+</div>
+<div class="columnC">
+  <h3>Jodi</h3>
+  <p><span style="color: #CA5743">UX designer</span> for a large, enterprise company. Has worked there for 18 years. Attended university for graphic design and self taught UX design. Loves to paint, has a strong background in visual design, but is keen on user experience. Works well with the numerous developers and offering managers on her product team, but wants to learn more about how to design within the constraints of her developers.
+</p>
+</div>
+<div class="columnC">
+  <h3>Chris</h3>
+  <p>Currently attends university for Computer Science and has been a full-stack developer intern. He prefers <span style="color: #CA5743">front-end development</span> but also has a passion for design. He has taken art classes but all visual design is self taught. He built his own website but wants to spice it up and start branding himself as a designer as well as a developer.
+</p>
+</div>
+<div class="columnC">
+  <h3>Jo</h3>
+  <p>Two years ago left his job a large tech company as a Team Lead (traditionally a back-end developer) to pursue his dream of creating a <span style="color: #CA5743">start-up</span>. His company is up and running and he needs to attract young developers and designers to hire. He knows little of the design side, but highly respects the designers he worked with for decades.
+</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="section-5">
+<div data-aos="fade-up" data-aos-duration="2000">
+<div class="section">
+<div class="row">
+<div class="columnD">
+  <h2>Competitive analysis</h2>
+</div>
+<div class="columnC">
+  <h3>Codepen</h3>
+  <a href="#img1"><img src="img/creativecode/process/Codepen.png" style="width:100%"></a>
+  <p>Codepen is a social development environment for front-end developers that includes an inline code editor and is open source.
+</p>
+</div>
+<div class="columnC">
+  <h3>Sketchviewer</h3>
+  <a href="#img2"><img src="img/creativecode/process/Sketchviewer.png" style="width:100%"></a>
+  <p>Sketchviewer is an online platform for sharing design work by allowing the previewing of Sketch files and providing version control.
+</p>
+</div>
+<div class="columnC">
+  <h3>GitHub</h3>
+  <a href="#img3"><img src="img/creativecode/process/GitHub.png" style="width:100%"></a>
+  <p>GitHub is a Git repository hosting service that provides a web-based graphical interface.
+</div>
+<div class="columnD">
+  <p><span style="color: #CA5743">Opportunity</span>: Providing a service that caters to both designers and developers, provides a sense of community, and has personality.</p>
+</div>
+</div>
+</div>
+</div>
+<a href="#section" class="lightbox" id="img1">
+  <span style="background-image: url(img/creativecode/process/Codepen.png)"></span>
+</a>
+<a href="#section" class="lightbox" id="img2">
+  <span style="background-image: url(img/creativecode/process/Sketchviewer.png)"></span>
+</a>
+<a href="#section" class="lightbox" id="img3">
+  <span style="background-image: url(img/creativecode/process/GitHub.png)"></span>
+</a>
+</section>
+
+<section id="section-6">
+<div data-aos="fade-up" data-aos-duration="2000">
+<div class="section">
+<div class="row">
+<div class="columnD">
+  <h2>Identity inspiration</h2>
+</div>
+<div class="columnC">
+  <a href="#img4"><img src="img/creativecode/process/inspiration/craft.jpg" style="width:100%"></a>
+
+<div class="row">
+  <a href="#img5"><img src="img/creativecode/process/inspiration/Buzzfeed2.png" style="width:100%"></a>
+</div>
+<div class="row">
+  <a href="#img6"><img src="img/creativecode/process/inspiration/d&ad.jpg" style="width:100%"></a>
+</div>
+</div>
+<div class="columnC">
+  <a href="#img7"><img src="img/creativecode/process/inspiration/V&A.jpeg" style="width:100%"></a>
+  <div class="row">
+    <a href="#img8"><img src="img/creativecode/process/inspiration/c.png" style="width:100%"></a>
+  </div>
+</div>
+<div class="columnC">
+  <a href="#img9"><img src="img/creativecode/process/inspiration/medium2.png" style="width:100%"></a>
+</div>
+</div>
+</div>
+</div>
+<a href="#section" class="lightbox" id="img4">
+  <span style="background-image: url(img/creativecode/process/inspiration/craft.jpg)"></span>
+</a>
+<a href="#section" class="lightbox" id="img5">
+  <span style="background-image: url(img/creativecode/process/inspiration/Buzzfeed2.png)"></span>
+</a>
+<a href="#section" class="lightbox" id="img6">
+  <span style="background-image: url(img/creativecode/process/inspiration/d&ad.jpg)"></span>
+</a>
+<a href="#section" class="lightbox" id="img7">
+  <span style="background-image: url(img/creativecode/process/inspiration/V&A.jpeg)"></span>
+</a>
+<a href="#section" class="lightbox" id="img8">
+  <span style="background-image: url(img/creativecode/process/inspiration/c.png)"></span>
+</a>
+<a href="#section" class="lightbox" id="img9">
+  <span style="background-image: url(img/creativecode/process/inspiration/medium2.png)"></span>
+</a>
+</section>
+
+<section id="section-7">
+<div data-aos="fade-up" data-aos-duration="2000">
+<div class="section">
+<div class="row">
+<div class="columnD">
+  <h2>UI Inspiration</h2>
+</div>
+<div class="columnA">
+  <a href="#img10"><img src="img/creativecode/process/inspiration/UI/Twitter.png" style="width:100%"></a>
+</div>
+<div class="columnA">
+  <a href="#img11"><img src="img/creativecode/process/inspiration/UI/Codepen2.png" style="width:100%"></a>
+</div>
+<div class="columnA">
+  <a href="#img12"><img src="img/creativecode/process/inspiration/UI/Creativemornings.png" style="width:100%"></a>
+</div>
+<div class="columnA">
+  <a href="#img13"><img src="img/creativecode/process/inspiration/UI/Codepen.png" style="width:100%"></a>
+</div>
+</div>
+</div>
+</div>
+<a href="#section" class="lightbox" id="img10">
+  <span style="background-image: url(img/creativecode/process/inspiration/UI/Twitter.png)"></span>
+</a>
+<a href="#section" class="lightbox" id="img11">
+  <span style="background-image: url(img/creativecode/process/inspiration/UI/Codepen2.png)"></span>
+</a>
+<a href="#section" class="lightbox" id="img12">
+  <span style="background-image: url(img/creativecode/process/inspiration/UI/Creativemornings.png)"></span>
+</a>
+<a href="#section" class="lightbox" id="img13">
+  <span style="background-image: url(img/creativecode/process/inspiration/UI/Codepen.png)"></span>
+</a>
+</section>
+
+
+<section id="section-8">
+<div data-aos="fade-up" data-aos-duration="2000">
+<div class="section">
+<div class="row">
+<div class="columnD">
+  <h2>Logo exploration</h2>
+</div>
+<div class="columnC">
+  <a href="#img14"><img src="img/creativecode/process/explorations/logos1.jpg" style="width:100%"></a>
+</p>
+</div>
+<div class="columnC">
+  <a href="#img15"><img src="img/creativecode/process/explorations/logos4.jpg" style="width:100%"></a>
+</p>
+</div>
+<div class="columnC">
+  <a href="#img16"><img src="img/creativecode/process/explorations/logos3.jpg" style="width:100%"></a>
+</div>
+<div class="columnD">
+  <a href="#img17"><img src="img/creativecode/process/logoboard.png" style="width:100%"></a>
+</div>
+</div>
+</div>
+</div>
+<a href="#section" class="lightbox" id="img14">
+  <span style="background-image: url(img/creativecode/process/explorations/logos1.jpg)"></span>
+</a>
+<a href="#section" class="lightbox" id="img15">
+  <span style="background-image: url(img/creativecode/process/explorations/logos4.jpg)"></span>
+</a>
+<a href="#section" class="lightbox" id="img16">
+  <span style="background-image: url(img/creativecode/process/explorations/logos3.jpg)"></span>
+</a>
+<a href="#section" class="lightbox" id="img17">
+  <span style="background-image: url(img/creativecode/process/logoboard.png)"></span>
+</a>
+</section>
+
+<section id="section-9">
+<div data-aos="fade-up" data-aos-duration="2000">
+<div class="section">
+<div class="row">
+<div class="columnD">
+  <h2>Iconography exploration</h2>
+</div>
+<div class="columnC">
+  <a href="#img18"><img src="img/creativecode/process/explorations/icons1.jpg" style="width:100%"></a>
+</div>
+<div class="columnB">
+  <a href="#img19"><img src="img/creativecode/process/explorations/icons2.jpg" style="width:100%"></a>
+</div>
+</div>
+</div>
+</section>
+<a href="#section" class="lightbox" id="img18">
+  <span style="background-image: url(img/creativecode/process/explorations/icons1.jpg)"></span>
+</a>
+<a href="#section" class="lightbox" id="img19">
+  <span style="background-image: url(img/creativecode/process/explorations/icons2.jpg)"></span>
+</a>
+
+<section id="section-10">
+<div data-aos="fade-up" data-aos-duration="2000">
+<div class="section">
+<div class="row">
+<div class="columnD">
+  <h2>UI exploration</h2>
+</div>
+<div class="columnC">
+  <a href="#img20"><img src="img/creativecode/process/explorations/UI/ui1.jpg" style="width:100%"></a>
+  <div class="row">
+    <a href="#img21"><img src="img/creativecode/process/explorations/UI/ui4.jpg" style="width:100%"></a>
+  </div>
+</div>
+<div class="columnC">
+  <a href="#img22"><img src="img/creativecode/process/explorations/UI/ui2.jpg" style="width:100%"></a>
+  <div class="row">
+    <a href="#img23"><img src="img/creativecode/process/explorations/UI/ui5.jpg" style="width:100%"></a>
+  </div>
+</div>
+<div class="columnC">
+  <a href="#img24"><img src="img/creativecode/process/explorations/UI/ui3.jpg" style="width:100%"></a>
+</div>
+</div>
+</div>
+</section>
+<a href="#section" class="lightbox" id="img20">
+  <span style="background-image: url(img/creativecode/process/explorations/UI/ui1.jpg)"></span>
+</a>
+<a href="#section" class="lightbox" id="img21">
+  <span style="background-image: url(img/creativecode/process/explorations/UI/ui4.jpg)"></span>
+</a>
+<a href="#section" class="lightbox" id="img22">
+  <span style="background-image: url(img/creativecode/process/explorations/UI/ui2.jpg)"></span>
+</a>
+<a href="#section" class="lightbox" id="img23">
+  <span style="background-image: url(img/creativecode/process/explorations/UI/ui5.jpg)"></span>
+</a>
+<a href="#section" class="lightbox" id="img24">
+  <span style="background-image: url(img/creativecode/process/explorations/UI/ui3.jpg)"></span>
+</a>
+
+<section id="section-11">
+<div data-aos="fade-up" data-aos-duration="2000">
+<div class="section">
+<div class="row">
+<div class="columnD">
+  <h2>Book explorations</h2>
+</div>
+<div class="columnC">
+  <a href="#img25"><img src="img/creativecode/process/explorations/book1.jpg" style="width:100%"></a>
+</div>
+<div class="columnC">
+  <a href="#img26"><img src="img/creativecode/process/explorations/book2.jpg" style="width:100%"></a>
+</div>
+</div>
+</div>
+</section>
+<a href="#section" class="lightbox" id="img25">
+  <span style="background-image: url(img/creativecode/process/explorations/book1.jpg)"></span>
+</a>
+<a href="#section" class="lightbox" id="img26">
+  <span style="background-image: url(img/creativecode/process/explorations/book2.jpg)"></span>
+</a>
+
+<!--
+<p>View the final deliverables on the creativecode.io <a href="creativecode.html">project page</a>.</p>
+-->
+
+
+
+
+
+
+
+</div>
+
+<script>
+  let mainNavLinks = document.querySelectorAll("nav ul li a");
+  let mainSections = document.querySelectorAll("main section");
+
+  let lastId;
+  let cur = [];
+
+  // This should probably be throttled.
+  // Especially because it triggers during smooth scrolling.
+  // https://lodash.com/docs/4.17.10#throttle
+  // You could do like...
+  // window.addEventListener("scroll", () => {
+  //    _.throttle(doThatStuff, 100);
+  // });
+  // Only not doing it here to keep this Pen dependency-free.
+
+  window.addEventListener("scroll", event => {
+    let fromTop = window.scrollY;
+
+    mainNavLinks.forEach(link => {
+      let section = document.querySelector(link.hash);
+
+      if (
+        section.offsetTop <= fromTop &&
+        section.offsetTop + section.offsetHeight > fromTop
+      ) {
+        link.classList.add("current");
+      } else {
+        link.classList.remove("current");
+      }
+    });
+  });
+  </script>
+
+<script src="aos-master/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+
+</body>
+</html>

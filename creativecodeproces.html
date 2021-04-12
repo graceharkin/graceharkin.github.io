@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<link href="site.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="stylesheet" href="aos-master/dist/aos.css" />
+
+<link rel="stylesheet" href="https://use.typekit.net/ual1uxe.css">
+<link rel="stylesheet" href="https://use.typekit.net/ual1uxe.css">
+<link href="https://cloud.typenetwork.com/projects/4644/fontface.css/" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://use.typekit.net/ual1uxe.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="site.js">
+
+
+<style>
+
+.header {
+  background-image: url(img/creativecode/logo.svg);
+  background-size: 40%;
+}
+
+@media screen and (max-width: 1112px) {
+  .header {background-size: 60%;}
+}
+
+@media screen and (max-width: 414px) {
+  .header {background-size: 80%;}
+}
+
+iframe {width: 100%;
+margin: 0px;
+padding: 0px;
+height: 800px;}
+
+@media screen and (max-width: 1320px) {
+    iframe {height: 500px;}
+    }
+
+    @media screen and (max-width: 1000px) {
+        iframe {height: 350px;}
+        }
+
+/*50% width columns*/
+.columnA {
+  -ms-flex: 47%; /* IE10 */
+  flex: 47%;
+  max-width: 49%;
+  margin-left: 16px;
+  margin-right: 16px;}
+@media screen and (max-width: 1320px) {
+    .columnA {
+      -ms-flex: 100%; /* IE10 */
+      flex: 100%;
+      max-width: 100%;
+      margin-top: 16px;
+      margin-bottom: 16px;
+      margin-left: 16px;
+      margin-right: 16px;}}
+@media screen and (max-width: 1000px) {
+  .columnA {
+    -ms-flex: 100%; /* IE10 */
+    flex: 100%;
+    max-width: 100%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    margin-right: 16px;}}
+
+/*66% width columns*/
+.columnB {
+  -ms-flex: 63%; /* IE10 */
+  flex: 63%;
+  max-width: 66%;
+  margin-left: 16px;
+  margin-right: 16px;}
+@media screen and (max-width: 1320px) {
+  .columnB {
+    -ms-flex: 100%; /* IE10 */
+    flex: 100%;
+    max-width: 100%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    margin-right: 16px;}}
+@media screen and (max-width: 1000px) {
+  .columnB {
+    -ms-flex: 100%; /* IE10 */
+    flex: 100%;
+    max-width: 100%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    margin-right: 16px;}}
+
+/*33% width columns*/
+.columnC {
+  -ms-flex: 31%; /* IE10 */
+  flex: 31%;
+  max-width: 32%;
+  margin-left: 16px;
+  margin-right: 16px;}
+@media screen and (max-width: 1320px) {
+  .columnC {
+    -ms-flex: 100%; /* IE10 */
+    flex: 100%;
+    max-width: 100%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    margin-right: 16px;}}
+@media screen and (max-width: 1000px) {
+  .columnC {
+    -ms-flex: 100%; /* IE10 */
+    flex: 100%;
+    max-width: 100%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    margin-right: 16px;}}
+
+/*100% width columns*/
+.columnD {
+  -ms-flex: 100%; /* IE10 */
+  flex: 100%;
+  max-width: 100%;
+  margin-left: 16px;
+  margin-right: 16px;
+text-align: center;}
+@media screen and (max-width: 1320px) {
+  .columnD {
+    -ms-flex: 100%; /* IE10 */
+    flex: 100%;
+    max-width: 100%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    margin-right: 16px;}}
+@media screen and (max-width: 1000px) {
+  .columnD {
+    -ms-flex: 100%; /* IE10 */
+    flex: 100%;
+    max-width: 100%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    margin-right: 16px;}}
+
+
+video {width: 100%;}
+
+h2 {
+  font-family: graphie, sans-serif;
+  font-weight: 600;
+font-size: 70px;
+line-height: normal;}
+
+h3 {  font-family: graphie, sans-serif;
+  font-size: 30px;
+  font-weight: lighter;}
+
+p {font-family: freight-big-pro, serif;
+font-weight: 400;
+font-style: normal;
+font-size: 50px;}
+
+.section {padding-top: 10%;}
+
+.columnC h3 {text-align: center;}
+
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  font-family: system-ui, sans-serif;
+
+  /* this breaks position sticky in Firefox */
+  /* overflow-x: hidden; */
+}
+header {
+  grid-column: 1 / 3;
+  background: #455A64;
+  color: white;
+  padding: 4rem;
+  text-align: center;
+}
+nav {
+  white-space: nowrap;
+position: fixed;
+z-index: 99;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/* Only stick if you can fit */
+@media (min-height: 300px) {
+  nav ul {
+    position: sticky;
+    top: 0;
+  }
+}
+nav ul li a {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #2B1B20;
+  text-decoration: none;
+}
+nav ul li a.current {
+  color: #CA5743;
+}
+
+</style>
+
+</head>
+
+
+<body style="background-color:#FDEFDB;">
+
+<div class="top">
+<div id="title">
+<a href="index.html">GRACE HARKIN</a>
+<div class="nav-right">
+<a href="about.html">about</a>
+</div>
+</div>
+</div>
+
+
+
+
+
+<div class="content">
+
+  <nav>
+    <ul>
+      <li><a href="#section-1">Problem</a></li>
+      <li><a href="#section-2">Solution</a></li>
+      <li><a href="#section-3">Requirements</a></li>
+      <li><a href="#section-4">Personas</a></li>
+      <li><a href="#section-5">Competitive analysis</a></li>
+      <li><a href="#section-6">Section 6</a></li>
+      <li><a href="#section-7">Section 7</a></li>
+      <li><a href="#section-8">Section 8</a></li>
+      <li><a href="#section-9">Section 9</a></li>
+    </ul>
+  </nav>
+
+
+
+<section id="section-1">
+<div data-aos="fade-up" data-aos-duration="2000">
+<div class="section">
+<div class="row">
+<div class="columnD">
+  <h2>Problem</h2>
+  <p>Designers who code and developers who design need a space to learn, <br>share, and collaborate on skills and projects.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="section-2">
+<div data-aos="fade-up" data-aos-duration="2000">
+<div class="section">
+<div class="row">
+<div class="columnD">
+  <h2>Solution</h2>
+  <p>An online community for web designers/developers hosted on a responsive <br>website that is available on desktop, tablet, and mobile.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+<section id="section-3">
+<div data-aos="fade-up" data-aos-duration="2000">
+<div class="section">
+<div class="row">
+<div class="columnD">
+  <h2>Requirements</h2>
+  <p>Brand identity<br>Advertising (print, digital, & animated)<br>User interface<br>Publication (print)</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+<section id="section-4">
+<div data-aos="fade-up" data-aos-duration="2000">
+<div class="section">
+<div class="row">
+<div class="columnD">
+  <h2>Personas</h2>
+</div>
+<div class="columnC">
+  <h3>Jodi</h3>
+  <p>UX designer for a large, enterprise company. Has worked there for 18 years. Attended university for graphic design and self taught UX design. Loves to paint, has a strong background in visual design, but is keen on user experience. Works well with the numerous developers and offering managers on her product team, but wants to learn more about how to design within the constraints of her developers.
+</p>
+</div>
+<div class="columnC">
+  <h3>Chris</h3>
+  <p>Currently attends university for Computer Science and has been a full-stack developer intern. He prefers front-end development but also has a passion for design. He has taken art classes but all visual design is self taught. He built his own website but wants to spice it up and start branding himself as a designer as well as a developer.
+</p>
+</div>
+<div class="columnC">
+  <h3>Jo</h3>
+  <p>Two years ago left his job a large tech company as a Team Lead (traditionally a back-end developer) to pursue his dream of creating a start-up. His company is up and running and he needs to attract young developers and designers to hire. He knows little of the design side, but highly respects the designers he worked with for decades.
+</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="section-5">
+<div data-aos="fade-up" data-aos-duration="2000">
+<div class="section">
+<div class="row">
+<div class="columnD">
+  <h2>Competitive analysis</h2>
+</div>
+<div class="columnC">
+  <h3>Codepen</h3>
+  <a href="#img1"><img src="img/creativecode/process/Codepen.png" style="width:100%"></a>
+  <p>Codepen is a social development environment for front-end developers.
+    <br><br>Has: <br>• Inline code editing<br>• Open-source code<br>• Ways to connect<br>• Blogs
+    <br><br>Lacks:<br> • Design file sharing<br>• Tutorials
+</p>
+</div>
+<div class="columnC">
+  <h3>Sketchviewer</h3>
+  <a href="#img2"><img src="img/creativecode/process/Sketchviewer.png" style="width:100%"></a>
+</p>
+</div>
+<div class="columnC">
+  <h3>GitHub</h3>
+  <a href="#img3"><img src="img/creativecode/process/GitHub.png" style="width:100%"></a>
+</div>
+</div>
+</div>
+</div>
+<a href="#section" class="lightbox" id="img1">
+  <span style="background-image: url(img/creativecode/process/Codepen.png)"></span>
+</a>
+<a href="#section" class="lightbox" id="img2">
+  <span style="background-image: url(img/creativecode/process/Sketchviewer.png)"></span>
+</a>
+<a href="#section" class="lightbox" id="img3">
+  <span style="background-image: url(img/creativecode/process/GitHub.png)"></span>
+</a>
+</section>
+
+
+<div data-aos="fade-up" data-aos-duration="2000">
+<div class="section">
+<div class="row">
+<div class="columnD">
+  <h2>Identity inspiration</h2>
+</div>
+<div class="columnC">
+  <a href="#img4"><img src="img/creativecode/process/inspiration/craft.jpg" style="width:100%"></a>
+<div class="row">
+  <a href="#img6"><img src="img/creativecode/process/inspiration/Buzzfeed.png" style="width:100%"></a>
+</div>
+</p>
+</div>
+<div class="columnC">
+  <a href="#img5"><img src="img/creativecode/process/inspiration/medium.png" style="width:100%"></a>
+</p>
+</div>
+<div class="columnC">
+  <a href="#img6"><img src="img/creativecode/process/inspiration/V&A.jpeg" style="width:100%"></a>
+  <div class="row">
+    <a href="#img6"><img src="img/creativecode/process/inspiration/c.png" style="width:100%"></a>
+  </div>
+</div>
+</div>
+<div class="columnC">
+</div>
+</div>
+</div>
+<a href="#section" class="lightbox" id="img4">
+  <span style="background-image: url(img/creativecode/process/inspiration/craft.jpg)"></span>
+</a>
+<a href="#section" class="lightbox" id="img5">
+  <span style="background-image: url(img/creativecode/process/inspiration/medium.png)"></span>
+</a>
+<a href="#section" class="lightbox" id="img6">
+  <span style="background-image: url(img/creativecode/process/inspiration/Buzzfeed.png)"></span>
+</a>
+
+<div data-aos="fade-up" data-aos-duration="2000">
+<div class="section">
+<div class="row">
+<div class="columnD">
+  <h2>UI Inspiration</h2>
+</div>
+<div class="columnC">
+  <a href="#img4"><img src="img/creativecode/process/inspiration/craft.jpg" style="width:100%"></a>
+<div class="row">
+  <a href="#img6"><img src="img/creativecode/process/inspiration/Buzzfeed.png" style="width:100%"></a>
+</div>
+</p>
+</div>
+<div class="columnC">
+  <a href="#img5"><img src="img/creativecode/process/inspiration/medium.png" style="width:100%"></a>
+</p>
+</div>
+<div class="columnC">
+  <a href="#img6"><img src="img/creativecode/process/inspiration/V&A.jpeg" style="width:100%"></a>
+  <div class="row">
+    <a href="#img6"><img src="img/creativecode/process/inspiration/c.png" style="width:100%"></a>
+  </div>
+</div>
+</div>
+<div class="columnC">
+</div>
+</div>
+</div>
+<a href="#section" class="lightbox" id="img4">
+  <span style="background-image: url(img/creativecode/process/inspiration/craft.jpg)"></span>
+</a>
+<a href="#section" class="lightbox" id="img5">
+  <span style="background-image: url(img/creativecode/process/inspiration/medium.png)"></span>
+</a>
+<a href="#section" class="lightbox" id="img6">
+  <span style="background-image: url(img/creativecode/process/inspiration/Buzzfeed.png)"></span>
+</a>
+
+
+
+
+
+<div data-aos="fade-up" data-aos-duration="2000">
+<div class="section">
+<div class="row">
+<div class="columnB">
+<a href="#img2"><img src="img/creativecode/illustrations.jpg" style="width:100%"></a>
+</div>
+<div class="columnC">
+<p>Illustrations are used for creativecode.io’s website and advertising. These illustrations put users into the context of the product, giving it a narrative look and feel in order to emphasize creativecode.io’s approachability.
+</p>
+</div>
+</div>
+</div>
+</div>
+<a href="#section" class="lightbox" id="img2">
+  <span style="background-image: url(img/creativecode/illustrations.jpg)"></span>
+</a>
+
+<div data-aos="fade-up" data-aos-duration="2000">
+<div class="section">
+<div class="row">
+<div class="columnB">
+<a href="#img3"><img src="img/creativecode/reddit.jpg" style="width:100%"></a>
+</div>
+<div class="columnC" style="background-color: #f26225;">
+<a href="#img4"><img src="img/creativecode/magad2.png" style="width:100%"></a>
+</div>
+</div>
+</div>
+</div>
+<a href="#section" class="lightbox" id="img3">
+  <span style="background-image: url(img/creativecode/reddit.jpg)"></span>
+</a>
+<a href="#section" class="lightbox" id="img4">
+  <span style="background-image: url(img/creativecode/magad2.png)"></span>
+</a>
+
+
+<div data-aos="fade-up" data-aos-duration="2000">
+<div class="section">
+<div class="row">
+<div class="columnB">
+<video controls="control" preload="metadata">
+<source src="img/creativecode/instaad.mp4#t=0.5" type="video/mp4">
+</video>
+</div>
+<div class="columnC">
+  <p>creativecode.io’s advertising emphasizes the platform’s accessibility on desktop, tablet, and mobile.
+    It also emphasizes the freedom that comes with being both a designer and a developer.
+<br><br>
+    The two main slogans are “You’re still a creator when you’re off of the computer” and “Design by your own rules, create by your own code.”</p>
+</div>
+</div>
+</div>
+</div>
+
+<div data-aos="fade-up" data-aos-duration="2000">
+<div class="section">
+<div class="row">
+<div class="columnD">
+<a href="#img5"><img src="img/creativecode/yourfeed.jpg" style="width:100%"></a>
+</div>
+</div>
+</div>
+</div>
+<a href="#section" class="lightbox" id="img5">
+  <span style="background-image: url(img/creativecode/yourfeed.jpg)"></span>
+</a>
+
+
+<div data-aos="fade-up" data-aos-duration="2000">
+<div class="section">
+<div class="row">
+<div class="columnD">
+<a href="#img6"><img src="img/creativecode/forum.jpg" style="width:100%"></a>
+</div>
+</div>
+</div>
+</div>
+<a href="#section" class="lightbox" id="img6">
+  <span style="background-image: url(img/creativecode/forum.jpg)"></span>
+</a>
+
+
+<div data-aos="fade-up" data-aos-duration="2000">
+<div class="section">
+<div class="row">
+<div class="columnB">
+<a href="#img7"><img src="img/creativecode/mobile.jpg" style="width:100%"></a>
+</div>
+</div>
+</div>
+</div>
+<a href="#section" class="lightbox" id="img7">
+  <span style="background-image: url(img/creativecode/mobile.jpg)"></span>
+</a>
+
+<div data-aos="fade-up" data-aos-duration="2000">
+<div class="section">
+<div class="row">
+<div class="columnA">
+<a href="#img8"><img src="img/creativecode/Book.jpg" style="width:100%"></a>
+</div>
+<div class="columnA">
+<a href="#img9"><img src="img/creativecode/book3.jpg" style="width:100%"></a>
+</div>
+</div>
+</div>
+</div>
+<a href="#section" class="lightbox" id="img8">
+  <span style="background-image: url(img/creativecode/Book.jpg)"></span>
+</a>
+<a href="#section" class="lightbox" id="img9">
+  <span style="background-image: url(img/creativecode/book3.jpg)"></span>
+</a>
+
+
+<div data-aos="fade-up" data-aos-duration="2000">
+<div class="section">
+<div class="row">
+<div class="columnD">
+<div class="video" style="position:relative;">
+  <iframe src="https://player.vimeo.com/video/409312713" frameborder="0" allowfullscreen></iframe>
+        </iframe>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div data-aos="fade-up" data-aos-duration="2000">
+<div class="section">
+<div class="row">
+<div class="columnA">
+<video controls="control" preload="metadata">
+<source src="img/creativecode/tablet.mp4#t=0.5" type="video/mp4">
+</video>
+</div>
+<div class="columnA">
+<a href="#img10"><img src="img/creativecode/tablet.jpg" style="width:100%"></a>
+</div>
+</div>
+</div>
+</div>
+<a href="#section" class="lightbox" id="img10">
+  <span style="background-image: url(img/creativecode/tablet.jpg)"></span>
+</a>
+
+
+</div>
+
+<script>
+  let mainNavLinks = document.querySelectorAll("nav ul li a");
+  let mainSections = document.querySelectorAll("main section");
+
+  let lastId;
+  let cur = [];
+
+  // This should probably be throttled.
+  // Especially because it triggers during smooth scrolling.
+  // https://lodash.com/docs/4.17.10#throttle
+  // You could do like...
+  // window.addEventListener("scroll", () => {
+  //    _.throttle(doThatStuff, 100);
+  // });
+  // Only not doing it here to keep this Pen dependency-free.
+
+  window.addEventListener("scroll", event => {
+    let fromTop = window.scrollY;
+
+    mainNavLinks.forEach(link => {
+      let section = document.querySelector(link.hash);
+
+      if (
+        section.offsetTop <= fromTop &&
+        section.offsetTop + section.offsetHeight > fromTop
+      ) {
+        link.classList.add("current");
+      } else {
+        link.classList.remove("current");
+      }
+    });
+  });
+  </script>
+
+<script src="aos-master/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+
+</body>
+</html>
